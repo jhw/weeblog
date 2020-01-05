@@ -1,3 +1,13 @@
+### git tagging 5/1/20
+
+- remember to update version in `setup.py` first!
+
+- git tag -a 0.0.1
+- [message is required]
+- git tag -l [list local]
+- git push origin 0.0.1
+- git ls-remote --tags
+
 ### sunvox 5/1/20
 
 - https://www.warmplace.ru/soft/sunvox/jsplay/
