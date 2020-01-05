@@ -1,18 +1,18 @@
 ### short
 
-- check directories watched by watcher
 - allow google to be optional
-- favicon not rendering
 - remove hardcode icon refs
 - remove need for paginator if only a single page
 
-- extend test pages
+- extend test pages to include text, youtube, images etc
 - pip package
 
 ### medium
 
 - make public and add proper README.md
 
+- favicon not rendering on localhost
+  - check master ?
 - twitter processor to remove widgets.js
 - argsparse.py
 - search_and_replace.py
@@ -30,6 +30,7 @@
 
 ### done
 
+- check directories watched by watcher
 - fix refs to blog in weeblog/aws
 - updated notes
 - check spellchecker, linkrot checker
