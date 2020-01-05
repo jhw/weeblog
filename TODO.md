@@ -1,17 +1,15 @@
 ### short
 
-- site builder to reference `config/icons.yaml`
-   - needs a new `filter_about` ref
-   - remove img links from `site.yaml`
-
-- remove need for paginator if only a single page
-
-- extend test pages to include text, youtube, images etc
+- remove icons.yaml and importing into site builder
+- refactor posts to include youtube, twitter embeds
+- CHANGES.md
 - pip package
+- tagged deployent
 
 ### medium
 
-- make public ?
+- only show pinned, links if links exist
+- paginator fails when only one post
 - add proper README.md
 - favicon not rendering on localhost
   - check master ?
