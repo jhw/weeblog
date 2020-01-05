@@ -1,15 +1,12 @@
 ### short
 
-- pip package
-- tagged deployent
-
-### medium
-
+- browserheaders shouldn't be part of weeblog
+- [scripts shouldn't import from weeblog]
 - only show pinned, links if links exist
 - paginator fails when only one post
-- add proper README.md
-- favicon not rendering on localhost
-  - check master ?
+- extend README.md
+
+### medium
 
 - extend tests
 - twitter processor to remove widgets.js
@@ -24,11 +21,15 @@
 
 ### thoughts
 
+- favicon not rendering on localhost ?
+  - seems to work fine in production :-/
 - ensure `posts` not required in local assets ?
   - no you need this because you will be merging with weeblog assets
 
 ### done
 
+- pip package
+- tagged deployent
 - CHANGES.md
 - refactor posts to include youtube, twitter embeds
 - remove icons.yaml and importing into site builder
