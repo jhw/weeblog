@@ -1,6 +1,5 @@
 ### short
 
-- rename REAMDE
 - move aws stuff back in weeblog
 - watcher currently failing
 
@@ -25,6 +24,7 @@
 
 ### done
 
+- rename REAMDE
 - check for `blog` in Path
 - demo
 - test scripts
