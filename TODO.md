@@ -1,13 +1,14 @@
 ### short
 
-- add logo to test local demo assets
-
 - check spellchecker, linkrot checker
 
+- allow googlw to be optional
+- favicon not rendering
 - remove hardcode icon refs
 - remove need for paginator if only a single page
 - remove hello world 2
 
+- extend test pages
 - github project
 - pip package
 
@@ -20,6 +21,7 @@
 
 ### done
 
+- add logo to test local demo assets
 - undo watcher exception handling
 - check why watcher failing
 - check app.props refs [no longer in config]

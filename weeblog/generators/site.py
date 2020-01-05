@@ -170,7 +170,8 @@ def build_site(stage, config, themes, templates):
     for post in posts:
         Path(post["path"]).dump(post["page"])
     generate_css(config, themes)
-    for src in ["weeblog/assets"]:
+    for src in ["weeblog/assets",
+                "assets"]:
         if os.path.exists(src):
             copy_assets(src)
     generate_index(posts)
