@@ -14,6 +14,7 @@
 
 ### medium
 
+- eliminate `posts` in local assets
 - refactor_src
 
 ### thoughts

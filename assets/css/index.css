@@ -1,0 +1,48 @@
+pre code {
+    border-radius: 5px;
+}
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    border-left: 10px solid {{ colours.success.hex }};
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+img.emoji {
+    height: 21px;
+    width:21px;
+    margin-top: -3px;
+}
+
+img.post-icon {
+    float: left;
+    height: 75px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+img.post-img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+div.post h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+div.youtube {
+    margin-top: 30px;
+    margin-bottom:30px;    
+}
+
+div.twitter {
+    margin-top: 20px;
+    margin-bottom:20px;    
+}
