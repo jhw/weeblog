@@ -1,8 +1,6 @@
 ### short
 
-- check spellchecker, linkrot checker
-
-- allow googlw to be optional
+- allow google to be optional
 - favicon not rendering
 - remove hardcode icon refs
 - remove need for paginator if only a single page
@@ -20,6 +18,7 @@
 
 ### done
 
+- check spellchecker, linkrot checker
 - github project
 - add logo to test local demo assets
 - undo watcher exception handling
