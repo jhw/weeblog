@@ -1,9 +1,14 @@
 ### short
 
-- check tools can take optional path
-- test tools
+- rename REAMDE
+- move aws stuff back in weeblog
+- watcher currently failing
 
+- check app.props refs [no longer in config]
 - remove hardcode icon refs
+- add some demo assets
+  - no current mechanism to copy local assets
+
 - mechanism to copy assets from both weeblog and local blog
 
 - github project

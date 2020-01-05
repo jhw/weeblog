@@ -2,7 +2,7 @@ from weeblog.preprocessors import *
 
 import yaml
 
-Emoji=yaml.load(open("config/emoji.yaml").read(),
+Emoji=yaml.load(open("weeblog/config/emoji.yaml").read(),
                 Loader=yaml.FullLoader)
 
 Img="<img src=\"%s/%s\" class=\"emoji\" />"

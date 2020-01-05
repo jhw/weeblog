@@ -62,9 +62,9 @@ def loop(stage, wait=1):
             (cache and
              cache.diff(newcache))):
             try:
-                config=load_yamlfile("config/site.yaml")
-                themes={"bootstrap": load_yamlfile("config/bootstrap.yaml"),
-                        "highlightjs": load_yamlfile("config/highlightjs.yaml")}
+                config=load_yamlfile("site.yaml")
+                themes={"bootstrap": load_yamlfile("weeblog/config/bootstrap.yaml"),
+                        "highlightjs": load_yamlfile("weeblog/config/highlightjs.yaml")}
                 templates=init_templates()
                 build(stage, config, themes, templates)
             except Exception as error:
