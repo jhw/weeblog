@@ -4,6 +4,9 @@
 - hardcode icon refs
 - test scripts
 
+- check for `blog` in Path
+- refactor mechanism for copying assets
+
 - demo
 
 - github project
