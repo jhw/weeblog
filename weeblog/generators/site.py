@@ -170,8 +170,7 @@ def build_site(stage, config, themes, templates):
     for post in posts:
         Path(post["path"]).dump(post["page"])
     generate_css(config, themes)
-    for src in ["assets"]:
-        copy_assets(src)
+    copy_assets("assets") # THIS WILL NEED CHANGING
     generate_index(posts)
     generate_error(config, templates)
     

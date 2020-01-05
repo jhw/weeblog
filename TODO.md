@@ -1,24 +1,26 @@
 ### short
 
-- check for `blog` in Path
-- check tools can take optionl path
+- check tools can take optional path
 - test tools
 
 - remove hardcode icon refs
-- refactor mechanism for copying assets
+- mechanism to copy assets from both weeblog and local blog
 
 - github project
 - pip package
 
 ### medium
 
-- eliminate `posts` in local assets
 - refactor_src
 
 ### thoughts
 
+- ensure `posts` not required in local assets ?
+  - no you need this because you will be merging with weeblog assets
+
 ### done
 
+- check for `blog` in Path
 - demo
 - test scripts
 - run `test.py`
