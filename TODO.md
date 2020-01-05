@@ -1,7 +1,11 @@
 ### short
 
-- allow google to be optional
-- remove hardcode icon refs
+- add watcher protection against site.yaml not found
+
+- add `config/icons.yaml`
+- site builder to reference `config/icons.yaml`
+- remove img links from `site.yaml`
+
 - remove need for paginator if only a single page
 
 - extend test pages to include text, youtube, images etc
@@ -12,9 +16,10 @@
 
 - make public ?
 - add proper README.md
-
 - favicon not rendering on localhost
   - check master ?
+
+- extend tests
 - twitter processor to remove widgets.js
 - argsparse.py
 - search_and_replace.py
@@ -32,6 +37,7 @@
 
 ### done
 
+- allow google to be optional
 - check directories watched by watcher
 - fix refs to blog in weeblog/aws
 - updated notes

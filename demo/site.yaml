@@ -5,8 +5,6 @@ head:
   themes:
     bootstrap: "cerulean"
     highlightjs: "arduino-light"
-  google:
-    analytics: "UA-150905941-1"
 navbar:
   title: "Hello World"
 about:
