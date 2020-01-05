@@ -2,7 +2,7 @@ from weeblog import *
 
 import jinja2, os, shutil, yaml
 
-TemplatesRoot="blog/templates"
+TemplatesRoot="templates"
 
 def load_yamlfile(filename):
     return yaml.load(open(filename).read(),

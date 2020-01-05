@@ -1,11 +1,11 @@
 ### short
 
-- check `from blog` refs
-- check `blog/` refs
 - add index.css to assets
 - hardcode icon refs
+- test scripts
 
-- dummy site
+- demo
+
 - github project
 - pip package
 
@@ -16,4 +16,7 @@
 ### thoughts
 
 ### done
+
+- check `from blog` refs
+- check `blog/` refs
 

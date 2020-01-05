@@ -170,17 +170,16 @@ def build_site(stage, config, themes, templates):
     for post in posts:
         Path(post["path"]).dump(post["page"])
     generate_css(config, themes)
-    for src in ["assets",
-                "blog/assets"]:
+    for src in ["assets"]:
         copy_assets(src)
     generate_index(posts)
     generate_error(config, templates)
     
 if __name__=="__main__":
     try:
-        config=load_yamlfile("config/site.yaml")
-        themes={"bootstrap": load_yamlfile("blog/config/bootstrap.yaml"),
-                "highlightjs": load_yamlfile("blog/config/highlightjs.yaml")}
+        config=load_yamlfile("demo/site.yaml")
+        themes={"bootstrap": load_yamlfile("config/bootstrap.yaml"),
+                "highlightjs": load_yamlfile("config/highlightjs.yaml")}
         templates=init_templates()
         build_site("dev", config, themes, templates)
     except RuntimeError as error:
