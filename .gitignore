@@ -4,7 +4,8 @@ lib/
 !/assets/css/lib
 !/assets/js/lib
 share/
+
 *.pyc
 bin
-site
 tmp
+demo/weeblog
