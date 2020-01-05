@@ -2,7 +2,7 @@
 - script to download and save all boostrap stylesheets from bootswatch.com
 """
 
-from blog.utils import BrowserHeaders
+from weeblog.utils import BrowserHeaders
 
 import http.client, lxml.html, os, time
 
@@ -28,7 +28,7 @@ def filter_links(doc):
 if __name__=="__main__":
     try:
         if not os.path.exists("tmp/bootstrap"):
-            os.mkdir("tmp/bootstrap")
+            os.makedirs("tmp/bootstrap")
         doc=lxml.html.fromstring(http_fetch("/"))
         for href in filter_links(doc):
             themename=href.split("/")[1]

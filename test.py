@@ -1,5 +1,5 @@
-from blog.preprocessors.backtick import BacktickTest
-from blog.preprocessors.emoji import EmojiTest
+from weeblog.preprocessors.backtick import BacktickTest
+from weeblog.preprocessors.emoji import EmojiTest
 
 Tests=[BacktickTest,
        EmojiTest]

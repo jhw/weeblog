@@ -16,7 +16,7 @@ def filter_themes():
 if __name__=="__main__":
     try:
         if not os.path.exists("tmp/highlightjs"):
-            os.mkdir("tmp/highlightjs")
+            os.makedirs("tmp/highlightjs")
         themenames=filter_themes()
         for themename in themenames:
             print (themename)

@@ -1,13 +1,10 @@
 ### short
 
-- add index.css to assets
 - hardcode icon refs
-- test scripts
-
 - check for `blog` in Path
-- refactor mechanism for copying assets
-
 - demo
+- test tools
+- refactor mechanism for copying assets
 
 - github project
 - pip package
@@ -21,6 +18,9 @@
 
 ### done
 
+- test scripts
+- run `test.py`
+- add index.css to assets
 - check `from blog` refs
 - check `blog/` refs
 
