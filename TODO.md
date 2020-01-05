@@ -1,7 +1,5 @@
 ### short
 
-- refactor posts to include youtube, twitter embeds
-- CHANGES.md
 - pip package
 - tagged deployent
 
@@ -31,6 +29,8 @@
 
 ### done
 
+- CHANGES.md
+- refactor posts to include youtube, twitter embeds
 - remove icons.yaml and importing into site builder
 - add `config/icons.yaml`
 - add watcher protection against site.yaml not found
