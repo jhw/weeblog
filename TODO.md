@@ -1,7 +1,5 @@
 ### short
 
-- notes on fast watcher
-
 - fix refs to blog in weeblog/aws
 - check directories watched by watcher
 - allow google to be optional
@@ -20,7 +18,6 @@
 - twitter, youtube preprocessor tests
 - gist and tweet button alignment
 - preprocessor to convert Google Keep punctuation, remove spaces before `?|!`
-- fast watcher [notes]
 - clean up linkrot
 - pinned links to use text colour from body
 - script to clean bucket
@@ -32,6 +29,7 @@
 
 ### done
 
+- updated notes
 - check spellchecker, linkrot checker
 - github project
 - add logo to test local demo assets
