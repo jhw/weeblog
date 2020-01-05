@@ -1,0 +1,8 @@
+awscli
+botocore
+boto3
+jinja2
+markdown
+pyyaml
+lxml
+pyspellchecker

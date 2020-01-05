@@ -1,0 +1,5 @@
+- virtualenv -p /usr/bin/python3.6 .
+- source bin/activate
+- pip install -r requirements.txt
+- {...}
+- deactivate
