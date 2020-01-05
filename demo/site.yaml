@@ -3,8 +3,8 @@ head:
   title: "Hello World"
   author: "@juzbo"
   themes:
-    bootstrap: "superhero"
-    highlightjs: "ocean"
+    bootstrap: "cerulean"
+    highlightjs: "arduino-light"
   google:
     analytics: "UA-150905941-1"
 navbar:
@@ -16,12 +16,3 @@ about:
     - href: "https://twitter.com/juzbo"
       src: "/assets/img/icons/twitter.png"
       title: "Twitter"
-    - href: "https://gist.github.com/jhw"
-      src: "/assets/img/icons/github.png"
-      title: "Github"
-    - href: "https://stackoverflow.com/users/124179/justin"
-      src: "/assets/img/icons/stackoverflow.png"
-      title: "StackOverflow"
-    - href: "https://www.linkedin.com/in/justin-worrall-8076b26/"
-      src: "/assets/img/icons/linkedin.png"
-      title: "LinkedIn"

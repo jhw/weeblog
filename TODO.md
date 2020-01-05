@@ -1,15 +1,29 @@
 ### short
 
+- notes on fast watcher
+
+- fix refs to blog in weeblog/aws
+- check directories watched by watcher
 - allow google to be optional
 - favicon not rendering
 - remove hardcode icon refs
 - remove need for paginator if only a single page
-- remove hello world 2
 
 - extend test pages
 - pip package
 
-- copy TODO.md items from `wol_code_blog`
+### medium
+
+- twitter processor to remove widgets.js
+- argsparse.py
+- search_and_replace.py
+- twitter, youtube preprocessor tests
+- gist and tweet button alignment
+- preprocessor to convert Google Keep punctuation, remove spaces before `?|!`
+- fast watcher [notes]
+- clean up linkrot
+- pinned links to use text colour from body
+- script to clean bucket
 
 ### thoughts
 
