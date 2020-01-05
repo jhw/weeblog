@@ -1,9 +1,9 @@
 ### short
 
-- move aws stuff back in weeblog
-- watcher currently failing
+- undo watcher exception handling
+- check why watcher failing
 
-- check app.props refs [no longer in config]
+- check other tools
 - remove hardcode icon refs
 - add some demo assets
   - no current mechanism to copy local assets
@@ -12,10 +12,7 @@
 
 - github project
 - pip package
-
-### medium
-
-- refactor_src
+- copy TODO.md items from `wol_code_blog`
 
 ### thoughts
 
@@ -24,6 +21,8 @@
 
 ### done
 
+- check app.props refs [no longer in config]
+- move aws stuff back in weeblog
 - rename REAMDE
 - check for `blog` in Path
 - demo

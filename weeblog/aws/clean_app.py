@@ -2,7 +2,7 @@
 
 import boto3, os, re
 
-BucketName=re.findall("AppName=(.+)", open("config/app.props").read())[0]
+BucketName=re.findall("AppName=(.+)", open("app.props").read())[0]
 
 S3=boto3.client("s3")
 
