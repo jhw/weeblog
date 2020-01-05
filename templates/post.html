@@ -1,0 +1,18 @@
+<div class="card mb-3 post">
+  <span style="padding-bottom:5px;" class="card-header"><h4 style="float:left;">{{ title }}</h4><h6 class="text-muted" style="float:right;margin-top:7px;">{{ formatted_date }}</h6></span>
+  <div class="card-body">
+    {{ body }}
+  </div>
+  <div class="card-footer text-muted">
+    <ul class="list-inline" style="margin:5px 0px 5px 0px;">
+      {% if src is defined %}
+      <li class="list-inline-item">
+	<a href="{{ src|safe }}"><img style="border-radius:3px;height:28px;width:28px;" title="Source code" src="/assets/img/icons/github.png" /></a>
+      </li>
+      {% endif %}
+      <li style="float:right;" class="list-inline-item">	
+	<a class="twitter-share-button" data-size="large" href="https://twitter.com/intent/tweet?text={{ title|safe }}%20by%20{{ author|safe }}">Tweet</a>
+      </li>
+    </ul>
+  </div>
+</div>

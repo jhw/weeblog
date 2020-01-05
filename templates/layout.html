@@ -1,0 +1,28 @@
+<html lang="en-GB">
+  <head>
+    {{ head }}
+  </head>
+  <body>
+    {{ navbar }}
+    <div class="container-fluid" style="margin-top:{{ theme.margin.top }}px;">
+      <div class="row">
+	<div class="col-md-1">
+	</div>
+	<div class="col-md-7">
+	  {{ post }}
+	  {{ paginator }}
+	</div>
+	<div class="col-md-3">
+	  {{ about }}
+	  {{ pinned }}
+	  {{ links }}
+	</div>
+	<div class="col-md-1">
+	</div>
+      </div>
+    </div>
+    <footer class="footer">
+      &nbsp;
+    </footer>
+  </body>
+</html>

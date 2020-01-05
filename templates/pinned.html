@@ -1,0 +1,22 @@
+<div class="card text-white bg-primary mb-3">
+  <div class="card-header">
+    {% if theme.colours.primary.greyness <= 224 %}
+    <span style="color:{{ theme.colours.white.hex }};">Pinned</span>
+    {% else %}
+    <span style="color:{{ theme.colours.gray.hex }};">Pinned</span>
+    {% endif %}
+  </div>
+  <div class="card-body">
+    <ul class="list-inline" style="margin-bottom:0px;">
+      {% for link in links %}
+      <li>
+	{% if theme.colours.primary.greyness <= 224 %}
+        <a style="color:{{ theme.colours.white.hex }};" href="{{ link.href }}">{{ link.text }}</a>
+	{% else %}
+        <a style="color:{{ theme.colours.gray.hex }};" href="{{ link.href }}">{{ link.text }}</a>
+	{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

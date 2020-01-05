@@ -1,0 +1,30 @@
+<div class="card text-white bg-secondary mb-3">
+  <div class="card-header">
+    {% if theme.colours.secondary.greyness <= 224 %}
+    <span style="color:{{ theme.colours.white.hex }};">Posts</span>
+    {% else %}
+    <span style="color:{{ theme.colours.gray.hex }};">Posts</span>
+    {% endif %}
+  </div>
+  <div class="card-body">
+    <ul class="list-inline" style="margin-bottom:0px;">
+      {% for link in links %}
+      <li>
+	{% if theme.colours.secondary.greyness <= 224 %}
+						  {% if link.draft %}
+						  <a style="color:{{ theme.colours.white.hex }};" href="{{ link.href }}"><i>{{ link.text }}</i></a>
+						  {% else %}
+						  <a style="color:{{ theme.colours.white.hex }};" href="{{ link.href }}">{{ link.text }}</a>
+						  {% endif %}
+						  {% else %}
+						  {% if link.draft %}
+						  <a style="color:{{ theme.colours.gray.hex }};" href="{{ link.href }}"><i>{{ link.text }}</i></a>
+						  {% else %}
+						  <a style="color:{{ theme.colours.gray.hex }};" href="{{ link.href }}">{{ link.text }}</a>
+						  {% endif %}
+						  {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

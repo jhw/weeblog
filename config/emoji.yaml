@@ -1,0 +1,36 @@
+bandage:
+  filename: bandage.png
+  pattern: '\:bandage\:'
+clap:
+  filename: clap.png
+  pattern: '\:clap\:'
+confused:
+  filename: confused.png
+  pattern: \:\-?\(
+horns:
+  filename: horns.png
+  pattern: '\:horns\:'
+horror:
+  filename: horror.png
+  pattern: '\:horror\:'
+neutral:
+  filename: neutral.png
+  pattern: \:\-?\|
+party:
+  filename: party.png
+  pattern: '\:party\:'
+poop:
+  filename: poop.png
+  pattern: '\:poop\:'
+slightly_smiling:
+  filename: slightly-smiling.png
+  pattern: \:\-?\)
+thinking:
+  filename: thinking.png
+  pattern: \:\-\/
+thumbs_up:
+  filename: thumbs-up.png
+  pattern: \:\+1
+unicorn:
+  filename: unicorn.png
+  pattern: '\:unicorn\:'

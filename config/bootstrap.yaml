@@ -1,0 +1,1407 @@
+cerulean:
+  colours:
+    blue:
+      greyness: 59
+      hex: '#033C73'
+    cyan:
+      greyness: 147
+      hex: '#2FA4E7'
+    danger:
+      greyness: 87
+      hex: '#C71C22'
+    dark:
+      greyness: 58
+      hex: '#343a40'
+    gray:
+      greyness: 142
+      hex: '#868e96'
+    gray-dark:
+      greyness: 58
+      hex: '#343a40'
+    green:
+      greyness: 113
+      hex: '#73A839'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 59
+      hex: '#033C73'
+    light:
+      greyness: 249
+      hex: '#f8f9fa'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 147
+      hex: '#2FA4E7'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 87
+      hex: '#C71C22'
+    secondary:
+      greyness: 236
+      hex: '#e9ecef'
+    success:
+      greyness: 113
+      hex: '#73A839'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 102
+      hex: '#DD5600'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 102
+      hex: '#DD5600'
+  margin:
+    top: 90
+cosmo:
+  colours:
+    blue:
+      greyness: 131
+      hex: '#2780E3'
+    cyan:
+      greyness: 141
+      hex: '#9954BB'
+    danger:
+      greyness: 104
+      hex: '#FF0039'
+    dark:
+      greyness: 57
+      hex: '#373a3c'
+    gray:
+      greyness: 142
+      hex: '#868e96'
+    gray-dark:
+      greyness: 57
+      hex: '#373a3c'
+    green:
+      greyness: 89
+      hex: '#3FB618'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 141
+      hex: '#9954BB'
+    light:
+      greyness: 249
+      hex: '#f8f9fa'
+    orange:
+      greyness: 163
+      hex: '#f0ad4e'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 131
+      hex: '#2780E3'
+    purple:
+      greyness: 94
+      hex: '#613d7c'
+    red:
+      greyness: 104
+      hex: '#FF0039'
+    secondary:
+      greyness: 57
+      hex: '#373a3c'
+    success:
+      greyness: 89
+      hex: '#3FB618'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 132
+      hex: '#FF7518'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 132
+      hex: '#FF7518'
+  margin:
+    top: 90
+cyborg:
+  colours:
+    blue:
+      greyness: 138
+      hex: '#2A9FD6'
+    cyan:
+      greyness: 136
+      hex: '#9933CC'
+    danger:
+      greyness: 68
+      hex: '#CC0000'
+    dark:
+      greyness: 174
+      hex: '#ADAFAE'
+    gray:
+      greyness: 80
+      hex: '#555'
+    gray-dark:
+      greyness: 32
+      hex: '#222'
+    green:
+      greyness: 99
+      hex: '#77B300'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 136
+      hex: '#9933CC'
+    light:
+      greyness: 32
+      hex: '#222'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 138
+      hex: '#2A9FD6'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 68
+      hex: '#CC0000'
+    secondary:
+      greyness: 80
+      hex: '#555'
+    success:
+      greyness: 99
+      hex: '#77B300'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 130
+      hex: '#FF8800'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 130
+      hex: '#FF8800'
+  margin:
+    top: 90
+darkly:
+  colours:
+    blue:
+      greyness: 90
+      hex: '#375a7f'
+    cyan:
+      greyness: 141
+      hex: '#3498DB'
+    danger:
+      greyness: 122
+      hex: '#E74C3C'
+    dark:
+      greyness: 48
+      hex: '#303030'
+    gray:
+      greyness: 144
+      hex: '#999'
+    gray-dark:
+      greyness: 48
+      hex: '#303030'
+    green:
+      greyness: 109
+      hex: '#00bc8c'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 141
+      hex: '#3498DB'
+    light:
+      greyness: 144
+      hex: '#999'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 90
+      hex: '#375a7f'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 122
+      hex: '#E74C3C'
+    secondary:
+      greyness: 64
+      hex: '#444'
+    success:
+      greyness: 109
+      hex: '#00bc8c'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 139
+      hex: '#F39C12'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 139
+      hex: '#F39C12'
+  margin:
+    top: 110
+flatly:
+  colours:
+    blue:
+      greyness: 62
+      hex: '#2C3E50'
+    cyan:
+      greyness: 141
+      hex: '#3498DB'
+    danger:
+      greyness: 122
+      hex: '#E74C3C'
+    dark:
+      greyness: 133
+      hex: '#7b8a8b'
+    gray:
+      greyness: 160
+      hex: '#95a5a6'
+    gray-dark:
+      greyness: 58
+      hex: '#343a40'
+    green:
+      greyness: 122
+      hex: '#18BC9C'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 141
+      hex: '#3498DB'
+    light:
+      greyness: 239
+      hex: '#ecf0f1'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 62
+      hex: '#2C3E50'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 122
+      hex: '#E74C3C'
+    secondary:
+      greyness: 160
+      hex: '#95a5a6'
+    success:
+      greyness: 122
+      hex: '#18BC9C'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 139
+      hex: '#F39C12'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 139
+      hex: '#F39C12'
+  margin:
+    top: 110
+journal:
+  colours:
+    blue:
+      greyness: 146
+      hex: '#EB6864'
+    cyan:
+      greyness: 96
+      hex: '#369'
+    danger:
+      greyness: 122
+      hex: '#F57A00'
+    dark:
+      greyness: 32
+      hex: '#222'
+    gray:
+      greyness: 112
+      hex: '#777'
+    gray-dark:
+      greyness: 48
+      hex: '#333'
+    green:
+      greyness: 96
+      hex: '#22B24C'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 96
+      hex: '#369'
+    light:
+      greyness: 249
+      hex: '#f8f9fa'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 146
+      hex: '#EB6864'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 122
+      hex: '#F57A00'
+    secondary:
+      greyness: 160
+      hex: '#aaa'
+    success:
+      greyness: 96
+      hex: '#22B24C'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 170
+      hex: '#F5E625'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 170
+      hex: '#F5E625'
+  margin:
+    top: 90
+litera:
+  colours:
+    blue:
+      greyness: 145
+      hex: '#4582EC'
+    cyan:
+      greyness: 123
+      hex: '#17a2b8'
+    danger:
+      greyness: 126
+      hex: '#d9534f'
+    dark:
+      greyness: 58
+      hex: '#343a40'
+    gray:
+      greyness: 142
+      hex: '#868e96'
+    gray-dark:
+      greyness: 58
+      hex: '#343a40'
+    green:
+      greyness: 101
+      hex: '#02B875'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 123
+      hex: '#17a2b8'
+    light:
+      greyness: 249
+      hex: '#f8f9fa'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 145
+      hex: '#4582EC'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 126
+      hex: '#d9534f'
+    secondary:
+      greyness: 181
+      hex: '#adb5bd'
+    success:
+      greyness: 101
+      hex: '#02B875'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 163
+      hex: '#f0ad4e'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 163
+      hex: '#f0ad4e'
+  margin:
+    top: 90
+lumen:
+  colours:
+    blue:
+      greyness: 115
+      hex: '#158CBA'
+    cyan:
+      greyness: 184
+      hex: '#75CAEB'
+    danger:
+      greyness: 124
+      hex: '#FF4136'
+    dark:
+      greyness: 80
+      hex: '#555'
+    gray:
+      greyness: 144
+      hex: '#999'
+    gray-dark:
+      greyness: 48
+      hex: '#333'
+    green:
+      greyness: 88
+      hex: '#28B62C'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 184
+      hex: '#75CAEB'
+    light:
+      greyness: 246
+      hex: '#f6f6f6'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 115
+      hex: '#158CBA'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 124
+      hex: '#FF4136'
+    secondary:
+      greyness: 240
+      hex: '#f0f0f0'
+    success:
+      greyness: 88
+      hex: '#28B62C'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 138
+      hex: '#FF851B'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 138
+      hex: '#FF851B'
+  margin:
+    top: 90
+lux:
+  colours:
+    blue:
+      greyness: 126
+      hex: '#007bff'
+    cyan:
+      greyness: 131
+      hex: '#1F9BCF'
+    danger:
+      greyness: 126
+      hex: '#d9534f'
+    dark:
+      greyness: 58
+      hex: '#343a40'
+    gray:
+      greyness: 153
+      hex: '#919aa1'
+    gray-dark:
+      greyness: 58
+      hex: '#343a40'
+    green:
+      greyness: 127
+      hex: '#4BBF73'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 131
+      hex: '#1F9BCF'
+    light:
+      greyness: 240
+      hex: '#fff'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 26
+      hex: '#1a1a1a'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 126
+      hex: '#d9534f'
+    secondary:
+      greyness: 240
+      hex: '#fff'
+    success:
+      greyness: 127
+      hex: '#4BBF73'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 163
+      hex: '#f0ad4e'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 163
+      hex: '#f0ad4e'
+  margin:
+    top: 130
+materia:
+  colours:
+    blue:
+      greyness: 142
+      hex: '#2196F3'
+    cyan:
+      greyness: 123
+      hex: '#9C27B0'
+    danger:
+      greyness: 97
+      hex: '#e51c23'
+    dark:
+      greyness: 32
+      hex: '#222'
+    gray:
+      greyness: 96
+      hex: '#666'
+    gray-dark:
+      greyness: 32
+      hex: '#222'
+    green:
+      greyness: 110
+      hex: '#4CAF50'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 123
+      hex: '#9C27B0'
+    light:
+      greyness: 240
+      hex: '#fff'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 142
+      hex: '#2196F3'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 97
+      hex: '#e51c23'
+    secondary:
+      greyness: 240
+      hex: '#fff'
+    success:
+      greyness: 110
+      hex: '#4CAF50'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 135
+      hex: '#ff9800'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 135
+      hex: '#ff9800'
+  margin:
+    top: 110
+minty:
+  colours:
+    blue:
+      greyness: 126
+      hex: '#007bff'
+    cyan:
+      greyness: 172
+      hex: '#6CC3D5'
+    danger:
+      greyness: 152
+      hex: '#FF7851'
+    dark:
+      greyness: 58
+      hex: '#343a40'
+    gray:
+      greyness: 128
+      hex: '#888'
+    gray-dark:
+      greyness: 58
+      hex: '#343a40'
+    green:
+      greyness: 149
+      hex: '#56CC9D'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 172
+      hex: '#6CC3D5'
+    light:
+      greyness: 249
+      hex: '#f8f9fa'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 162
+      hex: '#78C2AD'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 152
+      hex: '#FF7851'
+    secondary:
+      greyness: 182
+      hex: '#F3969A'
+    success:
+      greyness: 149
+      hex: '#56CC9D'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 188
+      hex: '#FFCE67'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 188
+      hex: '#FFCE67'
+  margin:
+    top: 90
+pulse:
+  colours:
+    blue:
+      greyness: 126
+      hex: '#007bff'
+    cyan:
+      greyness: 125
+      hex: '#009CDC'
+    danger:
+      greyness: 122
+      hex: '#FC3939'
+    dark:
+      greyness: 24
+      hex: '#17141F'
+    gray:
+      greyness: 142
+      hex: '#868e96'
+    gray-dark:
+      greyness: 58
+      hex: '#343a40'
+    green:
+      greyness: 96
+      hex: '#13B955'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 125
+      hex: '#009CDC'
+    light:
+      greyness: 249
+      hex: '#F9F8FC'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 96
+      hex: '#593196'
+    purple:
+      greyness: 96
+      hex: '#593196'
+    red:
+      greyness: 122
+      hex: '#FC3939'
+    secondary:
+      greyness: 175
+      hex: '#A991D4'
+    success:
+      greyness: 96
+      hex: '#13B955'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 143
+      hex: '#EFA31D'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 143
+      hex: '#EFA31D'
+  margin:
+    top: 110
+sandstone:
+  colours:
+    blue:
+      greyness: 93
+      hex: '#325D88'
+    cyan:
+      greyness: 145
+      hex: '#29ABE0'
+    danger:
+      greyness: 126
+      hex: '#d9534f'
+    dark:
+      greyness: 61
+      hex: '#3E3F3A'
+    gray:
+      greyness: 138
+      hex: '#8E8C84'
+    gray-dark:
+      greyness: 61
+      hex: '#3E3F3A'
+    green:
+      greyness: 139
+      hex: '#93C54B'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 145
+      hex: '#29ABE0'
+    light:
+      greyness: 244
+      hex: '#F8F5F0'
+    orange:
+      greyness: 142
+      hex: '#F47C3C'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 93
+      hex: '#325D88'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 126
+      hex: '#d9534f'
+    secondary:
+      greyness: 138
+      hex: '#8E8C84'
+    success:
+      greyness: 139
+      hex: '#93C54B'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 142
+      hex: '#F47C3C'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 151
+      hex: '#ffc107'
+  margin:
+    top: 90
+simplex:
+  colours:
+    blue:
+      greyness: 126
+      hex: '#007bff'
+    cyan:
+      greyness: 121
+      hex: '#029ACF'
+    danger:
+      greyness: 126
+      hex: '#D9831F'
+    dark:
+      greyness: 57
+      hex: '#373a3c'
+    gray:
+      greyness: 112
+      hex: '#777'
+    gray-dark:
+      greyness: 57
+      hex: '#373a3c'
+    green:
+      greyness: 75
+      hex: '#469408'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 121
+      hex: '#029ACF'
+    light:
+      greyness: 240
+      hex: '#fff'
+    orange:
+      greyness: 126
+      hex: '#D9831F'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 89
+      hex: '#D9230F'
+    purple:
+      greyness: 128
+      hex: '#9B479F'
+    red:
+      greyness: 89
+      hex: '#D9230F'
+    secondary:
+      greyness: 240
+      hex: '#fff'
+    success:
+      greyness: 75
+      hex: '#469408'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 128
+      hex: '#9B479F'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 151
+      hex: '#ffc107'
+  margin:
+    top: 110
+sketchy:
+  colours:
+    blue:
+      greyness: 126
+      hex: '#007bff'
+    cyan:
+      greyness: 123
+      hex: '#17a2b8'
+    danger:
+      greyness: 114
+      hex: '#dc3545'
+    dark:
+      greyness: 80
+      hex: '#555'
+    gray:
+      greyness: 142
+      hex: '#868e96'
+    gray-dark:
+      greyness: 48
+      hex: '#333'
+    green:
+      greyness: 92
+      hex: '#28a745'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 123
+      hex: '#17a2b8'
+    light:
+      greyness: 240
+      hex: '#fff'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 48
+      hex: '#333'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 114
+      hex: '#dc3545'
+    secondary:
+      greyness: 80
+      hex: '#555'
+    success:
+      greyness: 92
+      hex: '#28a745'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 151
+      hex: '#ffc107'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 151
+      hex: '#ffc107'
+  margin:
+    top: 90
+slate:
+  colours:
+    blue:
+      greyness: 126
+      hex: '#007bff'
+    cyan:
+      greyness: 168
+      hex: '#5bc0de'
+    danger:
+      greyness: 141
+      hex: '#ee5f5b'
+    dark:
+      greyness: 43
+      hex: '#272B30'
+    gray:
+      greyness: 129
+      hex: '#7A8288'
+    gray-dark:
+      greyness: 63
+      hex: '#3A3F44'
+    green:
+      greyness: 130
+      hex: '#62c462'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 168
+      hex: '#5bc0de'
+    light:
+      greyness: 236
+      hex: '#e9ecef'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 63
+      hex: '#3A3F44'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 141
+      hex: '#ee5f5b'
+    secondary:
+      greyness: 129
+      hex: '#7A8288'
+    success:
+      greyness: 130
+      hex: '#62c462'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 134
+      hex: '#f89406'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 134
+      hex: '#f89406'
+  margin:
+    top: 90
+solar:
+  colours:
+    blue:
+      greyness: 106
+      hex: '#B58900'
+    cyan:
+      greyness: 129
+      hex: '#268BD2'
+    danger:
+      greyness: 131
+      hex: '#D33682'
+    dark:
+      greyness: 42
+      hex: '#073642'
+    gray:
+      greyness: 143
+      hex: '#839496'
+    gray-dark:
+      greyness: 42
+      hex: '#073642'
+    green:
+      greyness: 118
+      hex: '#2AA198'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 129
+      hex: '#268BD2'
+    light:
+      greyness: 242
+      hex: '#FDF6E3'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 106
+      hex: '#B58900'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 131
+      hex: '#D33682'
+    secondary:
+      greyness: 143
+      hex: '#839496'
+    success:
+      greyness: 118
+      hex: '#2AA198'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 100
+      hex: '#CB4B16'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 100
+      hex: '#CB4B16'
+  margin:
+    top: 90
+spacelab:
+  colours:
+    blue:
+      greyness: 111
+      hex: '#446E9B'
+    cyan:
+      greyness: 149
+      hex: '#3399F3'
+    danger:
+      greyness: 69
+      hex: '#CD0200'
+    dark:
+      greyness: 48
+      hex: '#333'
+    gray:
+      greyness: 112
+      hex: '#777'
+    gray-dark:
+      greyness: 48
+      hex: '#333'
+    green:
+      greyness: 91
+      hex: '#3CB521'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 149
+      hex: '#3399F3'
+    light:
+      greyness: 224
+      hex: '#eee'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 111
+      hex: '#446E9B'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 69
+      hex: '#CD0200'
+    secondary:
+      greyness: 144
+      hex: '#999'
+    success:
+      greyness: 91
+      hex: '#3CB521'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 109
+      hex: '#D47500'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 109
+      hex: '#D47500'
+  margin:
+    top: 90
+superhero:
+  colours:
+    blue:
+      greyness: 118
+      hex: '#DF691A'
+    cyan:
+      greyness: 168
+      hex: '#5bc0de'
+    danger:
+      greyness: 126
+      hex: '#d9534f'
+    dark:
+      greyness: 93
+      hex: '#4E5D6C'
+    gray:
+      greyness: 142
+      hex: '#868e96'
+    gray-dark:
+      greyness: 58
+      hex: '#343a40'
+    green:
+      greyness: 122
+      hex: '#5cb85c'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 168
+      hex: '#5bc0de'
+    light:
+      greyness: 182
+      hex: '#abb6c2'
+    orange:
+      greyness: 163
+      hex: '#f0ad4e'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 118
+      hex: '#DF691A'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 126
+      hex: '#d9534f'
+    secondary:
+      greyness: 93
+      hex: '#4E5D6C'
+    success:
+      greyness: 122
+      hex: '#5cb85c'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 163
+      hex: '#f0ad4e'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 163
+      hex: '#f0ad4e'
+  margin:
+    top: 90
+united:
+  colours:
+    blue:
+      greyness: 126
+      hex: '#007bff'
+    cyan:
+      greyness: 123
+      hex: '#17a2b8'
+    danger:
+      greyness: 107
+      hex: '#DF382C'
+    dark:
+      greyness: 81
+      hex: '#772953'
+    gray:
+      greyness: 142
+      hex: '#868e96'
+    gray-dark:
+      greyness: 48
+      hex: '#333'
+    green:
+      greyness: 103
+      hex: '#38B44A'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 123
+      hex: '#17a2b8'
+    light:
+      greyness: 236
+      hex: '#e9ecef'
+    orange:
+      greyness: 116
+      hex: '#E95420'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 116
+      hex: '#E95420'
+    purple:
+      greyness: 81
+      hex: '#772953'
+    red:
+      greyness: 107
+      hex: '#DF382C'
+    secondary:
+      greyness: 166
+      hex: '#AEA79F'
+    success:
+      greyness: 103
+      hex: '#38B44A'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 161
+      hex: '#EFB73E'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 161
+      hex: '#EFB73E'
+  margin:
+    top: 90
+yeti:
+  colours:
+    blue:
+      greyness: 108
+      hex: '#008cba'
+    cyan:
+      greyness: 168
+      hex: '#5bc0de'
+    danger:
+      greyness: 113
+      hex: '#F04124'
+    dark:
+      greyness: 32
+      hex: '#222'
+    gray:
+      greyness: 128
+      hex: '#888'
+    gray-dark:
+      greyness: 48
+      hex: '#333'
+    green:
+      greyness: 115
+      hex: '#43ac6a'
+    indigo:
+      greyness: 120
+      hex: '#6610f2'
+    info:
+      greyness: 168
+      hex: '#5bc0de'
+    light:
+      greyness: 224
+      hex: '#eee'
+    orange:
+      greyness: 133
+      hex: '#fd7e14'
+    pink:
+      greyness: 144
+      hex: '#e83e8c'
+    primary:
+      greyness: 108
+      hex: '#008cba'
+    purple:
+      greyness: 123
+      hex: '#6f42c1'
+    red:
+      greyness: 113
+      hex: '#F04124'
+    secondary:
+      greyness: 224
+      hex: '#eee'
+    success:
+      greyness: 115
+      hex: '#43ac6a'
+    teal:
+      greyness: 128
+      hex: '#20c997'
+    warning:
+      greyness: 126
+      hex: '#E99002'
+    white:
+      greyness: 240
+      hex: '#fff'
+    yellow:
+      greyness: 126
+      hex: '#E99002'
+  margin:
+    top: 90

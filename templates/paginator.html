@@ -1,0 +1,9 @@
+<ul class="pagination" style="float:right;">
+  {% if prev is defined %}
+  <li class="page-item"><a class="page-link" href="{{ prev }}">Prev</a></li>
+  {% endif %}
+  {% if next is defined %}
+  <li class="page-item"><a class="page-link" href="{{ next }}">Next</a></li>
+  {% endif %}
+</ul>
+

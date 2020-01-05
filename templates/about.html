@@ -1,0 +1,18 @@
+<div class="card text-white bg-secondary mb-3">
+  <div class="card-header">
+    {% if theme.colours.secondary.greyness <= 224 %}
+    <span style="color:{{ theme.colours.white.hex }};">About</span>
+    {% else %}
+    <span style="color:{{ theme.colours.gray.hex }};">About</span>
+    {% endif %}
+  </div>
+  <div class="card-body">
+    <ul class="list-inline" style="margin-bottom:0px;">
+      {% for link in links %}      
+      <li style="float:left;margin-right:6px;margin-top:3px;margin-bottom:3px;">
+	<a href="{{ link.href }}"><img style="border-radius:3px;height:{{ params.icon_size }}px;width:{{ params.icon_size }}px;" title="{{ link.title }}" src="{{ link.src }}" /></a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
