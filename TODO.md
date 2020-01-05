@@ -1,17 +1,16 @@
 ### short
 
-- undo watcher exception handling
-- check why watcher failing
+- add logo to test local demo assets
 
-- check other tools
+- check spellchecker, linkrot checker
+
 - remove hardcode icon refs
-- add some demo assets
-  - no current mechanism to copy local assets
-
-- mechanism to copy assets from both weeblog and local blog
+- remove need for paginator if only a single page
+- remove hello world 2
 
 - github project
 - pip package
+
 - copy TODO.md items from `wol_code_blog`
 
 ### thoughts
@@ -21,6 +20,8 @@
 
 ### done
 
+- undo watcher exception handling
+- check why watcher failing
 - check app.props refs [no longer in config]
 - move aws stuff back in weeblog
 - rename REAMDE

@@ -31,11 +31,13 @@ class Path(list):
 
     @property
     def dirname(self):
-        return "/".join([tok for tok in self[:-1]])
+        return "/".join([tok for tok in self[:-1]
+                         if tok not in ["weeblog"]])
 
     @property
     def filename(self):
-        return "/".join(self)
+        return "/".join([tok for tok in self
+                         if tok not in ["weeblog"]])
 
     @property
     def srcfilename(self):

@@ -61,14 +61,11 @@ def loop(stage, wait=1):
         if (not cache or
             (cache and
              cache.diff(newcache))):
-            try:
-                config=load_yamlfile("site.yaml")
-                themes={"bootstrap": load_yamlfile("weeblog/config/bootstrap.yaml"),
-                        "highlightjs": load_yamlfile("weeblog/config/highlightjs.yaml")}
-                templates=init_templates()
-                build(stage, config, themes, templates)
-            except Exception as error:
-                logging.error(str(error))                
+            config=load_yamlfile("site.yaml")
+            themes={"bootstrap": load_yamlfile("weeblog/config/bootstrap.yaml"),
+                    "highlightjs": load_yamlfile("weeblog/config/highlightjs.yaml")}
+            templates=init_templates()
+            build(stage, config, themes, templates)
         cache=newcache
         time.sleep(wait)
     

@@ -136,7 +136,7 @@ def build_site(stage, config, themes, templates):
             raise RuntimeError("HighlightJS '%s' theme not found" % jsthemename)
     def generate_css(config,
                      themes,
-                     filename="assets/css/index.css"):
+                     filename="weeblog/assets/css/index.css"):
         themename=config["head"]["themes"]["bootstrap"]
         template=jinja2.Template(open(filename).read(),
                                  undefined=jinja2.StrictUndefined)
@@ -170,7 +170,9 @@ def build_site(stage, config, themes, templates):
     for post in posts:
         Path(post["path"]).dump(post["page"])
     generate_css(config, themes)
-    copy_assets("assets") # THIS WILL NEED CHANGING
+    for src in ["weeblog/assets"]:
+        if os.path.exists(src):
+            copy_assets(src)
     generate_index(posts)
     generate_error(config, templates)
     
