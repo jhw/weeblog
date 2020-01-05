@@ -9,7 +9,6 @@
 - remove hello world 2
 
 - extend test pages
-- github project
 - pip package
 
 - copy TODO.md items from `wol_code_blog`
@@ -21,6 +20,7 @@
 
 ### done
 
+- github project
 - add logo to test local demo assets
 - undo watcher exception handling
 - check why watcher failing
