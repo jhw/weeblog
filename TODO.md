@@ -5,11 +5,13 @@
 - remove need for paginator if only a single page
 
 - extend test pages to include text, youtube, images etc
+
 - pip package
 
 ### medium
 
-- make public and add proper README.md
+- make public ?
+- add proper README.md
 
 - favicon not rendering on localhost
   - check master ?
