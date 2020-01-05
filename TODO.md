@@ -1,6 +1,5 @@
 ### short
 
-- fix refs to blog in weeblog/aws
 - check directories watched by watcher
 - allow google to be optional
 - favicon not rendering
@@ -11,6 +10,8 @@
 - pip package
 
 ### medium
+
+- make public and add proper README.md
 
 - twitter processor to remove widgets.js
 - argsparse.py
@@ -29,6 +30,7 @@
 
 ### done
 
+- fix refs to blog in weeblog/aws
 - updated notes
 - check spellchecker, linkrot checker
 - github project
