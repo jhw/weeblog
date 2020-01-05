@@ -1,6 +1,5 @@
 ### short
 
-- remove icons.yaml and importing into site builder
 - refactor posts to include youtube, twitter embeds
 - CHANGES.md
 - pip package
@@ -32,6 +31,7 @@
 
 ### done
 
+- remove icons.yaml and importing into site builder
 - add `config/icons.yaml`
 - add watcher protection against site.yaml not found
 - allow google to be optional
