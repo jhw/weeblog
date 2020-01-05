@@ -2,10 +2,14 @@ import setuptools
 
 with open("README.md", "r") as fh:
     long_description=fh.read()
+
+"""
+https://stackoverflow.com/questions/1612733/including-non-python-files-with-setup-py
+"""
     
 setuptools.setup(
     name="weeblog",
-    version="0.0.1",
+    version="0.0.2",
     author="jhw",
     author_email="justin.worrall@gmail.com",
     description="Weeblog blogging framework",
@@ -18,4 +22,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    setup_requires=['setuptools_scm'],
+    include_package_data=True
 )
