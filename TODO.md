@@ -1,6 +1,5 @@
 ### short
 
-- add `config/icons.yaml`
 - site builder to reference `config/icons.yaml`
 - remove img links from `site.yaml`
 
@@ -35,6 +34,7 @@
 
 ### done
 
+- add `config/icons.yaml`
 - add watcher protection against site.yaml not found
 - allow google to be optional
 - check directories watched by watcher
