@@ -1,9 +1,10 @@
 ### short
 
-- hardcode icon refs
 - check for `blog` in Path
-- demo
+- check tools can take optionl path
 - test tools
+
+- remove hardcode icon refs
 - refactor mechanism for copying assets
 
 - github project
@@ -18,6 +19,7 @@
 
 ### done
 
+- demo
 - test scripts
 - run `test.py`
 - add index.css to assets
