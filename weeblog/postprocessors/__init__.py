@@ -1,3 +1,3 @@
-from blog import *
+from weeblog import *
 
 import re, unittest

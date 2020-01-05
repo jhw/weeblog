@@ -1,4 +1,4 @@
-from blog.preprocessors import *
+from weeblog.preprocessors import *
 
 OpenBlockQuote="<blockquote class=\"twitter-tweet\">"
 

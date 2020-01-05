@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 
-from blog.generators import load_yamlfile, init_templates
+from weeblog.tools import *
 
-from blog.generators.site import build_site, timeit
+from weeblog.generators import load_yamlfile, init_templates
+
+from weeblog.generators.site import build_site, timeit
 
 import logging, os
 
@@ -78,7 +80,7 @@ if __name__=="__main__":
         stage=sys.argv[1]
         if not stage in ["dev", "prod"]:
             raise RuntimeError("stage is invalid")
-        from blog.utils.logger import init_info_logger
+        from weeblog.utils.logger import init_info_logger
         init_info_logger()
         os.system("rm -rf site/*")
         loop(stage)

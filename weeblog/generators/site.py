@@ -1,6 +1,6 @@
-from blog.generators import *
+from weeblog.generators import *
 
-from blog.generators.post import build_post
+from weeblog.generators.post import build_post
 
 import copy
 

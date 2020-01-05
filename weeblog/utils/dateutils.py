@@ -1,4 +1,4 @@
-from blog.utils import *
+from weeblog.utils import *
 
 def pretty_format_date(date):    
     def suffix(day):

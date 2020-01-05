@@ -1,15 +1,15 @@
-from blog.generators import *
+from weeblog.generators import *
 
-from blog.preprocessors.backtick import preprocess as pp_backtick
-from blog.preprocessors.cache_buster import preprocess as pp_cache_buster
-from blog.preprocessors.emoji import preprocess as pp_emoji
-from blog.preprocessors.twitter import preprocess as pp_twitter
-from blog.preprocessors.youtube import preprocess as pp_youtube
+from weeblog.preprocessors.backtick import preprocess as pp_backtick
+from weeblog.preprocessors.cache_buster import preprocess as pp_cache_buster
+from weeblog.preprocessors.emoji import preprocess as pp_emoji
+from weeblog.preprocessors.twitter import preprocess as pp_twitter
+from weeblog.preprocessors.youtube import preprocess as pp_youtube
 
-from blog.postprocessors.post_icon import postprocess as pp_post_icon
-from blog.postprocessors.post_img import postprocess as pp_post_img
+from weeblog.postprocessors.post_icon import postprocess as pp_post_icon
+from weeblog.postprocessors.post_img import postprocess as pp_post_img
 
-from blog.utils.dateutils import pretty_format_date
+from weeblog.utils.dateutils import pretty_format_date
 
 import datetime, markdown, re
 

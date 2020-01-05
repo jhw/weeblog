@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-from blog.generators.post import build_post
+from weeblog.tools import *
+
+from weeblog.generators.post import build_post
 
 from spellchecker import SpellChecker
 

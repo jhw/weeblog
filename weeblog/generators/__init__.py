@@ -1,4 +1,4 @@
-from blog import *
+from weeblog import *
 
 import jinja2, os, shutil, yaml
 

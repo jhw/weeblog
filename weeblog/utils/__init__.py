@@ -1,4 +1,4 @@
-from blog import *
+from weeblog import *
 
 BrowserHeaders={
     "Accept": "text/html",

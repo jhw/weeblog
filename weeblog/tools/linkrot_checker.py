@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-from blog.utils import BrowserHeaders
+from weeblog.tools import *
+
+from weeblog.utils import BrowserHeaders
 
 import http.client, logging, lxml.html, os, urllib.request, urllib.parse
 
@@ -54,7 +56,7 @@ def http_fetch(url):
 
 if __name__=="__main__":
     try:
-        from blog.utils.logger import init_info_logger
+        from weeblog.utils.logger import init_info_logger
         init_info_logger()
         urls={url:refs
               for url, refs in crawl_site("site").items()

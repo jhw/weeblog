@@ -1,4 +1,4 @@
-from blog.preprocessors import *
+from weeblog.preprocessors import *
 
 def postprocess(text):
     return re.sub("\\#post\\-icon\"", "\" class=\"post-icon\"", text)

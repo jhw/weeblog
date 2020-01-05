@@ -1,4 +1,4 @@
-from blog.preprocessors import *
+from weeblog.preprocessors import *
 
 def postprocess(text):
     return re.sub("\\#post\\-img\"", "\" class=\"post-img img-fluid\"", text)
