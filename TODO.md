@@ -1,7 +1,5 @@
 ### short
 
-- add watcher protection against site.yaml not found
-
 - add `config/icons.yaml`
 - site builder to reference `config/icons.yaml`
 - remove img links from `site.yaml`
@@ -37,6 +35,7 @@
 
 ### done
 
+- add watcher protection against site.yaml not found
 - allow google to be optional
 - check directories watched by watcher
 - fix refs to blog in weeblog/aws

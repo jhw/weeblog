@@ -77,6 +77,8 @@ if __name__=="__main__":
         stage=sys.argv[1]
         if not stage in ["dev", "prod"]:
             raise RuntimeError("stage is invalid")
+        if not os.path.exists("site.yaml"):
+            raise RuntimeError("site.yaml does not exist")
         from weeblog.utils.logger import init_info_logger
         init_info_logger()
         os.system("rm -rf site/*")
