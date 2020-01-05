@@ -1,12 +1,12 @@
 ### short
 
 - site builder to reference `config/icons.yaml`
-- remove img links from `site.yaml`
+   - needs a new `filter_about` ref
+   - remove img links from `site.yaml`
 
 - remove need for paginator if only a single page
 
 - extend test pages to include text, youtube, images etc
-
 - pip package
 
 ### medium

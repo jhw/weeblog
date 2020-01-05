@@ -18,6 +18,8 @@ Ignore=yaml.load("""
 - index.css
 """, Loader=yaml.FullLoader)
 
+Icons=load_yamlfile("weeblog/config/icons.yaml")
+
 DraftFilterFn=lambda x: "draft" in x and x["draft"]
 PinnedFilterFn=lambda x: ("pinned" in x and x["pinned"]) and not DraftFilterFn(x)
 
