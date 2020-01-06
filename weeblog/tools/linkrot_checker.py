@@ -2,8 +2,6 @@
 
 from weeblog.tools import *
 
-from weeblog.utils import BrowserHeaders
-
 import http.client, logging, lxml.html, os, urllib.request, urllib.parse
 
 def crawl_site(path):

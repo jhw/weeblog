@@ -2,7 +2,7 @@
 - script to download and save all boostrap stylesheets from bootswatch.com
 """
 
-from weeblog.utils import BrowserHeaders
+from weeblog.tools import BrowserHeaders
 
 import http.client, lxml.html, os, time
 

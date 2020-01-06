@@ -1,7 +1,5 @@
 ### short
 
-- browserheaders shouldn't be part of weeblog
-- [scripts shouldn't import from weeblog]
 - only show pinned, links if links exist
 - paginator fails when only one post
 - extend README.md
@@ -28,6 +26,7 @@
 
 ### done
 
+- moved browser headers to tools
 - pip package
 - tagged deployent
 - CHANGES.md
