@@ -1,23 +1,30 @@
 ### short
 
-- remove `links` key from pinned, links
-- extend README.md
+- bump to 0.0.3
+
+- full set of pre/postprocessor tests
+- tools to use argsparse.py
+- tools/search_and_replace.py
 
 ### medium
 
-- extend tests
 - twitter processor to remove widgets.js
-- argsparse.py
-- search_and_replace.py
-- twitter, youtube preprocessor tests
 - gist and tweet button alignment
-- preprocessor to convert Google Keep punctuation, remove spaces before `?|!`
-- clean up linkrot
 - pinned links to use text colour from body
 - script to clean bucket
 
+- react version ?
+
 ### thoughts
 
+- preprocessor to convert Google Keep punctuation ?
+  - remove spaces before `?|!` ?
+  - probably not worth it ?
+- clean up linkrot ?
+  - not worth it
+- remove `links` key from pinned, links ?
+  - no; jinja requires dict to be passed to sub- template
+  - paginator is not the same as dict (prev, next) is passed
 - favicon not rendering on localhost ?
   - seems to work fine in production :-/
 - ensure `posts` not required in local assets ?
@@ -25,6 +32,7 @@
 
 ### done
 
+- extend README.md
 - only show pinned, links if links exist
 - moved browser headers to tools
 - paginator fails when only one post
