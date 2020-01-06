@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from weeblog.tools import *
 
 import http.client, logging, lxml.html, os, urllib.request, urllib.parse

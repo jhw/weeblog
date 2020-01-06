@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from weeblog.tools import *
 
 """HTTP server classes.

@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from weeblog.tools import *
 
 from weeblog.generators import load_yamlfile, init_templates

@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from weeblog.tools import *
 
 from weeblog.generators.post import build_post
