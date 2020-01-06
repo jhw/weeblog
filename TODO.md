@@ -1,6 +1,5 @@
 ### short
 
-- only show pinned, links if links exist
 - paginator fails when only one post
 - extend README.md
 
@@ -26,7 +25,9 @@
 
 ### done
 
+- only show pinned, links if links exist
 - moved browser headers to tools
+
 - pip package
 - tagged deployent
 - CHANGES.md

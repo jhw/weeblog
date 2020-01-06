@@ -98,9 +98,14 @@ def generate_posts(stage, config, themes, templates, root="posts"):
         components={}
         for attr in ["head", "about", "navbar"]:
             components[attr]=copy.deepcopy(config[attr])
-        components["pinned"]=filter_links(posts, pinnedfn)
-        components["links"]=filter_links(posts, linkfns[stage])
-        components["paginators"]=init_paginators(posts)
+        pinned=filter_links(posts, pinnedfn)
+        if pinned["links"]:
+            components["pinned"]=pinned
+        links=filter_links(posts, linkfns[stage])
+        if links["links"]:
+            components["links"]=links
+        paginators=init_paginators(posts)
+        components["paginators"]=paginators
         return components
     def filter_components(components, i):
         struct=copy.deepcopy(components)
