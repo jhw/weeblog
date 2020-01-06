@@ -178,11 +178,4 @@ def build_site(stage, config, themes, templates):
     generate_error(config, templates)
     
 if __name__=="__main__":
-    try:
-        config=load_yamlfile("demo/site.yaml")
-        themes={"bootstrap": load_yamlfile("config/bootstrap.yaml"),
-                "highlightjs": load_yamlfile("config/highlightjs.yaml")}
-        templates=init_templates()
-        build_site("dev", config, themes, templates)
-    except RuntimeError as error:
-        print ("Error: %s" % str(error))
+    pass

@@ -111,12 +111,5 @@ def build_post(stage, _post,
     return post
         
 if __name__=="__main__":
-    try:
-        post=build_post("dev", open("posts/2019-10/options.md").read())
-        print (yaml.safe_dump(post,
-                              default_flow_style=False))
-    except RuntimeError as error:
-        print ("Error: %s" % str(error))
-
-
+    pass
 
