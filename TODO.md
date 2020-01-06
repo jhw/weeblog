@@ -1,7 +1,5 @@
 ### short
 
-- bump to 0.0.3
-
 - full set of pre/postprocessor tests
 - tools to use argsparse.py
 - tools/search_and_replace.py
@@ -32,6 +30,7 @@
 
 ### done
 
+- bump to 0.0.3
 - extend README.md
 - only show pinned, links if links exist
 - moved browser headers to tools
