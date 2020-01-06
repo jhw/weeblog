@@ -12,3 +12,9 @@
 ```
 
 - https://stackoverflow.com/questions/1612733/including-non-python-files-with-setup-py
+
+### 0.0.3
+
+- moved `BrowserHeaders` to `weeblog.tools`
+- now only rendering `pinned` and `links` if they are not empty
+- not only creating and rendering `paginator` if `len(posts) > 1`

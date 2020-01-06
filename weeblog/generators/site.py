@@ -81,7 +81,7 @@ def generate_posts(stage, config, themes, templates, root="posts"):
                 return {"prev": posts[i-1]["path"],
                         "next": posts[i+1]["path"]}
         return [init_paginator(posts, i)
-                for i in range(len(posts))]
+                for i in range(len(posts))] if len(posts) > 1 else []
     def append_theme(fn):
         def wrapped(stage, config, *args, **kwargs):
             components=fn(stage, config, *args, **kwargs)
@@ -105,12 +105,14 @@ def generate_posts(stage, config, themes, templates, root="posts"):
         if links["links"]:
             components["links"]=links
         paginators=init_paginators(posts)
-        components["paginators"]=paginators
+        if paginators:
+            components["paginators"]=paginators
         return components
     def filter_components(components, i):
         struct=copy.deepcopy(components)
-        paginators=struct.pop("paginators")
-        struct["paginator"]=paginators[i]
+        if "paginators" in struct:
+            paginators=struct.pop("paginators")
+            struct["paginator"]=paginators[i]
         return struct
     def init_page(config, themes, templates, components, post, i):
         layout={key: templates[key].render(values)

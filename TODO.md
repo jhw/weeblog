@@ -1,6 +1,6 @@
 ### short
 
-- paginator fails when only one post
+- remove `links` key from pinned, links
 - extend README.md
 
 ### medium
@@ -27,6 +27,7 @@
 
 - only show pinned, links if links exist
 - moved browser headers to tools
+- paginator fails when only one post
 
 - pip package
 - tagged deployent
