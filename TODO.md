@@ -1,17 +1,18 @@
 ### short
 
+- sunvox separate load/play to handle ios bug
+  - or load assets on page load ?
+
+### medium
+
 - full set of pre/postprocessor tests
 - tools to use argsparse.py
 - tools/search_and_replace.py
-
-### medium
 
 - twitter processor to remove widgets.js
 - gist and tweet button alignment
 - pinned links to use text colour from body
 - script to clean bucket
-
-- react version ?
 
 ### thoughts
 

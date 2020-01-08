@@ -18,3 +18,7 @@
 - moved `BrowserHeaders` to `weeblog.tools`
 - now only rendering `pinned` and `links` if they are not empty
 - not only creating and rendering `paginator` if `len(posts) > 1`
+
+### 0.0.4
+
+- added back try/catch protection to `weeblog.tools.watcher`
