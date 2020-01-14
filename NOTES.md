@@ -4,6 +4,7 @@
 - this clearly isn't going to work with ios due to ajax restrictions
 - solution probably involved splitting loading and playing, as loading into localstorage
 - https://stackoverflow.com/questions/21008732/javascript-save-blob-to-localstorage
+- https://gist.github.com/robnyman/1875344
 
 ### git tagging 5/1/20
 
