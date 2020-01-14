@@ -7,6 +7,8 @@
 
 ### medium
 
+- watcher doesn't appear to be watching `assets/js`
+
 - full set of pre/postprocessor tests
 - tools to use argsparse.py
 - tools/search_and_replace.py
