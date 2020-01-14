@@ -1,6 +1,5 @@
 ### short
 
-- javascript table demo
 - sunvox demo
 
 - sunvox separate load/play to handle ios bug
@@ -34,6 +33,7 @@
 
 ### done
 
+- javascript table demo
 - bump to 0.0.3
 - extend README.md
 - only show pinned, links if links exist
