@@ -18,7 +18,19 @@ Lorem ipsum `dolor` sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 
 ##### Here's a JQuery plugin rendering a table of random numbers
 
-<div id="js-demo"></div>
+<div id="jquery-demo"></div>
+
+##### Here's a Sunvox file
+
+<div id="sunvox-demo"></div>
+
+[comment]: <> (Need to include sunvox libraries, not included by default as large)
+
+<script src="/assets/js/lib/sunvox.js"></script>
+<script src="/assets/js/lib/sunvox_lib_loader.js"></script>
+<script src="/assets/js/lib/sunvox_play.js"></script>
+
+[comment]: <> (hello_world.js contains both JQ and SV demos)
 
 <script src="/assets/js/posts/2020-01/hello_world.js"></script>
 

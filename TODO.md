@@ -1,7 +1,5 @@
 ### short
 
-- sunvox demo
-
 - sunvox separate load/play to handle ios bug
   - or load assets on page load ?
 
@@ -35,6 +33,7 @@
 
 ### done
 
+- sunvox demo
 - javascript table demo
 - bump to 0.0.3
 - extend README.md

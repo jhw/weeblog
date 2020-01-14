@@ -1,4 +1,4 @@
-var App={
+var JQDemo={
     init: function(id) {
 	var table=$("<table>").attr({
 	    "class": "table table-bordered table-striped"
@@ -30,6 +30,50 @@ var App={
     }
 };
 
+var SVButtonPlaying="btn btn-danger btn-lg";
+var SVButtonStopped="btn btn-info   btn-lg";
+
+var SVDemo={
+    isPlaying: function(id) {
+	return $(id).find("button").attr("class")==SVButtonPlaying;
+    },
+    renderPlaying: function(id) {
+	$(id).find("button").attr("class", SVButtonPlaying).text("Stop");
+    },
+    renderStopped: function(id) {
+	$(id).find("button").attr("class", SVButtonStopped).text("Play");
+    },
+    renderAllStopped: function() {
+	$.each($(":button"), function(i, button) {
+	    var id="#"+$(button).parent().attr("id");
+	    if (SVDemo.isPlaying(id)) {
+		SVDemo.renderStopped(id);
+	    }
+	});
+    },
+    bind: function(id, filename) {
+	var button=$("<button>").attr({
+	    type: "button",
+	    "class": SVButtonStopped,	    
+	}).css({
+	    "margin-bottom": "25px"
+	}).text("Play").click(function() {
+	    if (!SVDemo.isPlaying(id)) {
+		Sunvox.stop();
+		SVDemo.renderAllStopped();
+		SVDemo.renderPlaying(id);
+		Sunvox.start(filename);
+	    } else {
+		SVDemo.renderStopped(id);
+		Sunvox.stop();
+	    }
+	});
+	$(id).append(button);
+    }
+};
+
 $(document).ready(function() {
-    App.init("#js-demo");
+    JQDemo.init("#jquery-demo");
+    SVDemo.bind("#sunvox-demo",
+		"/assets/sunvox/posts/2020-01/city_dreams.sunvox");
 });
