@@ -1,3 +1,10 @@
+### sunvox 14/1/20
+
+- so current problem is that Sunvox.start (in weeblog/assets/js/) loads file using ajax and then immediately starts to play it
+- this clearly isn't going to work with ios due to ajax restrictions
+- solution probably involved splitting loading and playing, as loading into localstorage
+- https://stackoverflow.com/questions/21008732/javascript-save-blob-to-localstorage
+
 ### git tagging 5/1/20
 
 - remember to update version in `setup.py` first!

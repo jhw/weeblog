@@ -1,7 +1,6 @@
 ### short
 
-- sunvox separate load/play to handle ios bug
-  - or load assets on page load ?
+- sunvox ios workaround
 
 ### medium
 
