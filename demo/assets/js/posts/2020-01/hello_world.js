@@ -69,11 +69,18 @@ var SVDemo={
 	    }
 	});
 	$(id).append(button);
-    }
+    },
+    init: function(id, filenames) {
+	for (var i=0; i < filenames.length; i++) {
+	    var filename=filenames[i];
+	    Sunvox.load(i, filename);
+	    SVDemo.bind(id, i);
+	}
+    };
 };
 
 $(document).ready(function() {
     JQDemo.init("#jquery-demo");
     SVDemo.init("#sunvox-demo",
-		"/assets/sunvox/posts/2020-01/city_dreams.sunvox");
+		["/assets/sunvox/posts/2020-01/city_dreams.sunvox"]);
 });
