@@ -30,27 +30,11 @@ var JQDemo={
     }
 };
 
+var SVSlot="sunvox-slot";
 var SVButtonPlaying="btn btn-danger btn-lg";
-var SVButtonStopped="btn btn-info   btn-lg";
+var SVButtonStopped="btn btn-info btn-lg";
 
 var SVDemo={
-    isPlaying: function(id) {
-	return $(id).find("button").attr("class")==SVButtonPlaying;
-    },
-    renderPlaying: function(id) {
-	$(id).find("button").attr("class", SVButtonPlaying).text("Stop");
-    },
-    renderStopped: function(id) {
-	$(id).find("button").attr("class", SVButtonStopped).text("Play");
-    },
-    renderAllStopped: function() {
-	$.each($(":button"), function(i, button) {
-	    var id="#"+$(button).parent().attr("id");
-	    if (SVDemo.isPlaying(id)) {
-		SVDemo.renderStopped(id);
-	    }
-	});
-    },
     bind: function(id, slot) {
 	var button=$("<button>").attr({
 	    type: "button",
@@ -58,29 +42,37 @@ var SVDemo={
 	}).css({
 	    "margin-bottom": "25px"
 	}).text("Play").click(function() {
-	    if (!SVDemo.isPlaying(id)) {
-		sv_stop(slot);
-		SVDemo.renderAllStopped();
-		SVDemo.renderPlaying(id);
+	    var currentSlot=localStorage.getItem(SVSlot);
+	    if (currentSlot===undefined) {
 		sv_play_from_beginning(slot);
+		$(id).find("button").attr("class", SVButtonPlaying).text("Stop");
+		localStorage.setItem("sunvox-slot", slot);
 	    } else {
-		SVDemo.renderStopped(id);
-		sv_stop(slot);
+		currentSlot=parseInt(currentSlot);
+		if (slot===currentSlot) {
+		    sv_stop(currentSlot);
+		    $(id).find("button").attr("class", SVButtonStopped).text("Play");	
+		    localStorage.setItem(SVSlot, undefined);
+		}
 	    }
 	});
 	$(id).append(button);
     },
-    init: function(id, filenames) {
-	for (var i=0; i < filenames.length; i++) {
-	    var filename=filenames[i];
-	    Sunvox.load(i, filename);
-	    SVDemo.bind(id, i);
+    init: function(items) {
+	for (var i=0; i < items.length; i++) {
+	    var item=item[i];
+	    Sunvox.load(i, item.filename);
+	    SVDemo.bind(item.id, i);
 	}
     };
 };
 
 $(document).ready(function() {
     JQDemo.init("#jquery-demo");
-    SVDemo.init("#sunvox-demo",
-		["/assets/sunvox/posts/2020-01/city_dreams.sunvox"]);
+    SVDemo.init([
+	{
+	    id: "#sunvox-demo",
+	    filename: "/assets/sunvox/posts/2020-01/city_dreams.sunvox"
+	}
+    ]);
 });

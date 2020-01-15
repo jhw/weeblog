@@ -1,6 +1,6 @@
-### short [sunvox iOS workaround]
+### short
 
-- SVDemo to save state to localstorage rather than observing button color
+- test sunvox dev
 
 ### medium
 
@@ -32,6 +32,7 @@
 
 ### done
 
+- SVDemo to save state to localstorage rather than observing button color
 - new SVDemo init function which calls SVDemo.bind
 - SVDemo.init to call Sunvox.Load with filenames and slots
 - SVDemo to call sv_play_from_beginning(slot) and sv_stop(slot) directly
