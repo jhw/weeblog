@@ -1,6 +1,7 @@
 ### short
 
-- test sunvox dev
+- separate load/play buttons
+- move button rendering capability into weeblog assets
 
 ### medium
 
@@ -32,6 +33,7 @@
 
 ### done
 
+- test sunvox dev
 - SVDemo to save state to localstorage rather than observing button color
 - new SVDemo init function which calls SVDemo.bind
 - SVDemo.init to call Sunvox.Load with filenames and slots
