@@ -1,8 +1,5 @@
 ### short [sunvox iOS workaround]
 
-- change Sunvox.start to Sunvox.load
-- remove play command from Sunvox.load
-- remove Sunvox.stop
 - new SVDemo init function which calls SVDemo.bind
 - SVDemo.init to call Sunvox.Load with filenames and slots
 - SVDemo to call sv_play_from_beginning(slot) and sv_stop(slot) directly
@@ -39,6 +36,9 @@
 
 ### done
 
+- change Sunvox.start to Sunvox.load
+- remove play command from Sunvox.load
+- remove Sunvox.stop
 - sunvox demo
 - javascript table demo
 - bump to 0.0.3
@@ -46,7 +46,6 @@
 - only show pinned, links if links exist
 - moved browser headers to tools
 - paginator fails when only one post
-
 - pip package
 - tagged deployent
 - CHANGES.md

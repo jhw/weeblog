@@ -1,12 +1,17 @@
+/*
+  sv_play_from_beginning(0);
+  sv_stop(0);
+*/
+
 var Sunvox={    
-    start: function(fname) {
+    load: function(slot, fname) {
 	console.log("loading: "+fname);
 	var loadFromArrayBuffer=function(buf) {
 	    if (buf) {
 		var byteArray=new Uint8Array(buf);
-		if (sv_load_from_memory(0, byteArray)==0) {
+		if (sv_load_from_memory(slot, byteArray)==0) {
 		    console.log("song loaded");
-		    sv_play_from_beginning(0);
+
 		} else {
 		    console.log("song load error");
 		}
@@ -24,9 +29,6 @@ var Sunvox={
             loadFromArrayBuffer(arrayBuffer);
 	};
 	req.send(null);
-    },
-    stop: function() {
-	sv_stop(0);
     }
 };
 
