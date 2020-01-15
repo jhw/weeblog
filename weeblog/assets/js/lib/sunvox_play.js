@@ -5,7 +5,7 @@
 
 var Sunvox={    
     load: function(slot, fname) {
-	console.log("loading: "+fname);
+	console.log("loading "+fname+" in slot "+slot);
 	var loadFromArrayBuffer=function(buf) {
 	    if (buf) {
 		var byteArray=new Uint8Array(buf);

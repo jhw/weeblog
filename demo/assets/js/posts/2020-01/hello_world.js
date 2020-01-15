@@ -60,11 +60,11 @@ var SVDemo={
     },
     init: function(items) {
 	for (var i=0; i < items.length; i++) {
-	    var item=item[i];
+	    var item=items[i];
 	    Sunvox.load(i, item.filename);
 	    SVDemo.bind(item.id, i);
 	}
-    };
+    }
 };
 
 $(document).ready(function() {
