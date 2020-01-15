@@ -2,8 +2,6 @@
 
 - new SVDemo init function which calls SVDemo.bind
 - SVDemo.init to call Sunvox.Load with filenames and slots
-- SVDemo to call sv_play_from_beginning(slot) and sv_stop(slot) directly
-- SVDemo to initialise buttons with slots rather than filenames
 - SVDemo to save state to localstorage rather than observing button color
 
 ### medium
@@ -36,6 +34,8 @@
 
 ### done
 
+- SVDemo to call sv_play_from_beginning(slot) and sv_stop(slot) directly
+- SVDemo to initialise buttons with slots rather than filenames
 - change Sunvox.start to Sunvox.load
 - remove play command from Sunvox.load
 - remove Sunvox.stop

@@ -51,7 +51,7 @@ var SVDemo={
 	    }
 	});
     },
-    bind: function(id, filename) {
+    bind: function(id, slot) {
 	var button=$("<button>").attr({
 	    type: "button",
 	    "class": SVButtonStopped,	    
@@ -59,13 +59,13 @@ var SVDemo={
 	    "margin-bottom": "25px"
 	}).text("Play").click(function() {
 	    if (!SVDemo.isPlaying(id)) {
-		Sunvox.stop();
+		sv_stop(slot);
 		SVDemo.renderAllStopped();
 		SVDemo.renderPlaying(id);
-		Sunvox.start(filename);
+		sv_play_from_beginning(slot);
 	    } else {
 		SVDemo.renderStopped(id);
-		Sunvox.stop();
+		sv_stop(slot);
 	    }
 	});
 	$(id).append(button);
@@ -74,6 +74,6 @@ var SVDemo={
 
 $(document).ready(function() {
     JQDemo.init("#jquery-demo");
-    SVDemo.bind("#sunvox-demo",
+    SVDemo.init("#sunvox-demo",
 		"/assets/sunvox/posts/2020-01/city_dreams.sunvox");
 });
