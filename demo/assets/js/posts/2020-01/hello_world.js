@@ -30,38 +30,9 @@ var JQDemo={
     }
 };
 
-var SVDemo={
-    bindButton: function(item) {
-	var button=$("<button>").attr({
-	    type: "button",
-	    class: "btn btn-info btn-lg"
-	}).text("Load").click(function() {
-	    var text=$(this).text();
-	    if (text==="Load") {
-		Sunvox.load(item.filename, item.slot);
-		$(this).text("Play").attr("class", "btn btn-primary btn-lg");
-	    } else if (text==="Play") {
-		sv_play_from_beginning(item.slot);
-		$(this).text("Stop").attr("class", "btn btn-warning btn-lg");
-	    } else if (text=="Stop") {
-		sv_stop(item.slot);
-		$(this).text("Play").attr("class", "btn btn-primary btn-lg");
-	    };
-	});
-	$(item.id).append(button);
-    },    
-    initButtons: function(items) {
-	for (var i=0; i < items.length; i++) {
-	    var item=items[i];
-	    item.slot=i;
-	    SVDemo.bindButton(item);
-	}
-    }
-};
-
 $(document).ready(function() {
     JQDemo.init("#jquery-demo");
-    SVDemo.initButtons([{
+    Sunvox.initButtons([{
 	id: "#sunvox-demo",
 	filename: "/assets/sunvox/posts/2020-01/city_dreams.sunvox"	
     }], "btn-info btn-lg");
