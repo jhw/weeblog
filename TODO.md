@@ -1,10 +1,5 @@
 ### short
 
-- separate load/play buttons
-  - could you do load/play/stop ?
-
-- move button rendering capability into weeblog assets
-
 ### medium
 
 - watcher doesn't appear to be watching `assets/js`
@@ -35,6 +30,9 @@
 
 ### done
 
+- separate load/play buttons
+  - could you do load/play/stop ?
+- move button rendering capability into weeblog assets
 - test sunvox dev
 - SVDemo to save state to localstorage rather than observing button color
 - new SVDemo init function which calls SVDemo.bind

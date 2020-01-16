@@ -1,21 +1,25 @@
 var Sunvox={    
-    load: function(fname, slot) {
-	console.log("loading "+fname+" in slot "+slot);
+    loadSlot: function(item, button) {
+	console.log("loading "+item.filename+" in slot "+item.slot);
 	var loadFromArrayBuffer=function(buf) {
 	    if (buf) {
 		var byteArray=new Uint8Array(buf);
-		sv_open_slot(slot);
-		console.log("loading data into slot "+slot);
-		svloadresp=sv_load_from_memory(slot, byteArray);
-		console.log("SV load resp: "+svloadresp);
+		sv_open_slot(item.slot);
+		var sv=sv_load_from_memory(item.slot, byteArray);
+		if (sv===0) {
+		    $(button).text("Play").attr("class", "btn btn-primary btn-lg");
+		    console.log("loaded "+item.filename+" in slot "+item.slot);
+		} else {
+		    console.log("error loading "+item.filename+" in slot "+item.slot);
+		}
 	    }
 	};
 	var req=new XMLHttpRequest();
-	req.open("GET", fname, true);
+	req.open("GET", item.filename, true);
 	req.responseType="arraybuffer";
 	req.onload=function(e) {
 	    if(this.status!=200) {
-		console.log("file not found");
+		console.log(item.filename+" not found");
             } else {
 		var arrayBuffer=this.response;
 		loadFromArrayBuffer(arrayBuffer);
@@ -30,8 +34,7 @@ var Sunvox={
 	}).text("Load").click(function() {
 	    var text=$(this).text();
 	    if (text==="Load") {
-		Sunvox.load(item.filename, item.slot);
-		$(this).text("Play").attr("class", "btn btn-primary btn-lg");
+		Sunvox.loadSlot(item, this);
 	    } else if (text==="Play") {
 		sv_play_from_beginning(item.slot);
 		$(this).text("Stop").attr("class", "btn btn-warning btn-lg");
