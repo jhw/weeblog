@@ -31,11 +31,14 @@ var JQDemo={
 };
 
 var SVDemo={
+    clickHandler: function() {
+	console.log("click");
+    },
     initButton: function(id) {
 	var button=$("<button>").attr({
 	    type: "button",
 	    class: "btn btn-info btn-lg"
-	}).text("Click Me");
+	}).text("Click Me").click(SVDemo.clickHandler);
 	$(id).append(button);
     },    
     init: function() {
