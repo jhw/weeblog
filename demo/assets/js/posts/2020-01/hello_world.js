@@ -31,19 +31,28 @@ var JQDemo={
 };
 
 var SVDemo={
-    clickHandler: function() {
-	console.log("click");
-    },
-    initButton: function(id) {
+    initButton: function(id, slot) {
 	var button=$("<button>").attr({
 	    type: "button",
 	    class: "btn btn-info btn-lg"
-	}).text("Click Me").click(SVDemo.clickHandler);
+	}).text("Load").click(function() {
+	    var text=$(this).text();
+	    if (text==="Load") {
+		$(this).text("Play");
+	    } else if (text==="Play") {
+		$(this).text("Stop");
+	    } else if (text=="Stop") {
+		$(this).text("Play");
+	    };
+	});
 	$(id).append(button);
     },    
     init: function() {
-	console.log("hah");
-	SVDemo.initButton("#sunvox-demo");
+	SVDemo.initButton({
+	    id: "#sunvox-demo",
+	    filename: "",	    
+	    slot: 0
+	});
     }
 };
 
