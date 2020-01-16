@@ -1,5 +1,5 @@
 var Sunvox={    
-    load: function(slot, fname) {
+    load: function(fname, slot) {
 	console.log("loading "+fname+" in slot "+slot);
 	var loadFromArrayBuffer=function(buf) {
 	    if (buf) {

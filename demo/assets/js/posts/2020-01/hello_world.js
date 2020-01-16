@@ -31,26 +31,29 @@ var JQDemo={
 };
 
 var SVDemo={
-    initButton: function(id, slot) {
+    initButton: function(item) {
 	var button=$("<button>").attr({
 	    type: "button",
 	    class: "btn btn-info btn-lg"
 	}).text("Load").click(function() {
 	    var text=$(this).text();
 	    if (text==="Load") {
-		$(this).text("Play");
+		Sunvox.load(item.filename, item.slot);
+		$(this).text("Play");		
 	    } else if (text==="Play") {
+		sv_play_from_beginning(item.slot);
 		$(this).text("Stop");
 	    } else if (text=="Stop") {
+		sv_stop(item.slot);
 		$(this).text("Play");
 	    };
 	});
-	$(id).append(button);
+	$(item.id).append(button);
     },    
     init: function() {
 	SVDemo.initButton({
 	    id: "#sunvox-demo",
-	    filename: "",	    
+	    filename: "/assets/sunvox/posts/2020-01/city_dreams.sunvox",
 	    slot: 0
 	});
     }
