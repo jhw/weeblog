@@ -1,8 +1,9 @@
 ### short
 
-### medium
-
+- rename `deploy/clean_app.py` as `deploy/clean_site.py`
 - watcher doesn't appear to be watching `assets/js`
+
+### medium
 
 - full set of pre/postprocessor tests
 - tools to use argsparse.py
