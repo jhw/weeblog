@@ -1,6 +1,8 @@
 ### short
 
 - separate load/play buttons
+  - could you do load/play/stop ?
+
 - move button rendering capability into weeblog assets
 
 ### medium
