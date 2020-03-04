@@ -1,14 +1,13 @@
-### short
+### short [0.6]
 
 - rename `deploy/clean_app.py` as `deploy/clean_site.py`
-- watcher doesn't appear to be watching `assets/js`
+- watcher to watch `assets`
+- add `tools/search_and_replace.py`
 
 ### medium
 
 - full set of pre/postprocessor tests
 - tools to use argsparse.py
-- tools/search_and_replace.py
-
 - twitter processor to remove widgets.js
 - gist and tweet button alignment
 - pinned links to use text colour from body
