@@ -1,6 +1,5 @@
 ### short [0.6]
 
-- rename `deploy/clean_app.py` as `deploy/clean_site.py`
 - watcher to watch `assets`
 - add `tools/search_and_replace.py`
 
@@ -30,6 +29,7 @@
 
 ### done
 
+- rename `deploy/clean_app.py` as `deploy/clean_site.py`
 - separate load/play buttons
   - could you do load/play/stop ?
 - move button rendering capability into weeblog assets
