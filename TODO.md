@@ -1,6 +1,4 @@
-### short [0.6]
-
-- add `tools/search_and_replace.py`
+### short 
 
 ### medium
 

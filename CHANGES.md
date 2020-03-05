@@ -22,3 +22,13 @@
 ### 0.0.4
 
 - added back try/catch protection to `weeblog.tools.watcher`
+
+### 0.0.5
+
+???
+
+### 0.0.6
+
+- add `tools/search_and_replace.py`
+- watcher to watch `assets`
+- rename `deploy/clean_app.py` as `deploy/clean_site.py`
