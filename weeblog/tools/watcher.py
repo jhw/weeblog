@@ -6,7 +6,7 @@ from weeblog.generators.site import build_site, timeit
 
 import logging, os
 
-Paths=["posts", "site.yaml"]
+Paths=["posts", "assets", "site.yaml"]
 
 # ValueFn=lambda path: len(open(path, 'rb').read())
 

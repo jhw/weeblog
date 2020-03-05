@@ -1,6 +1,5 @@
 ### short [0.6]
 
-- watcher to watch `assets`
 - add `tools/search_and_replace.py`
 
 ### medium
@@ -29,6 +28,7 @@
 
 ### done
 
+- watcher to watch `assets`
 - rename `deploy/clean_app.py` as `deploy/clean_site.py`
 - separate load/play buttons
   - could you do load/play/stop ?
