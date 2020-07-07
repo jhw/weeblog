@@ -9,7 +9,7 @@ https://stackoverflow.com/questions/1612733/including-non-python-files-with-setu
     
 setuptools.setup(
     name="weeblog",
-    version="0.0.6",
+    version="0.0.7",
     author="jhw",
     author_email="justin.worrall@gmail.com",
     description="Weeblog blogging framework",

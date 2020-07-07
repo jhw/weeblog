@@ -1,4 +1,4 @@
-title: Hello World
+title: My First Post
 date: 2020-01-05
 pinned: true
 src: https://gist.github.com/jhw/32b536d87e4d8ff3032cfccb16cbf6df

@@ -32,3 +32,7 @@
 - add `tools/search_and_replace.py`
 - watcher to watch `assets`
 - rename `deploy/clean_app.py` as `deploy/clean_site.py`
+
+### 0.0.7
+
+- changed page title to make instapaper- friendly
