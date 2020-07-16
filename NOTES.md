@@ -1,4 +1,8 @@
-### meta properties
+### readlang blog 16/7/20
+
+- http://blog.readlang.com/2015/12/10/import-clean-readable-versions-of-webpages-to-practice-language-learning.html
+
+### meta properties 16/7/20
 
 - https://ogp.me/
 - https://www.w3schools.com/tags/tag_meta.asp
