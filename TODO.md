@@ -1,4 +1,10 @@
-### short 
+### short [instapaper compatability
+
+- change title to be page title only
+  - see if you can avoid the hack in the python script
+  - should be applied in templates
+- add meta / open graph fields [notes]
+- add <article> to body
 
 ### medium
 

@@ -1,3 +1,51 @@
+### meta properties
+
+- https://ogp.me/
+- https://www.w3schools.com/tags/tag_meta.asp
+
+--
+
+https://www.bbc.com/russian/features-53425651
+
+<title>Допрос следователя, шифрование и интерес силовиков: главные подробности дела Сафронова - BBC News Русская служба</title>
+<meta name="description" content="Мосгорсуд в четверг рассмотрит апелляцию на арест обвиняемого в госизмене бывшего журналиста и советника главы &quot;Роскосмоса&quot; Ивана Сафронова. Русская служба Би-би-си рассказывает, что известно об уголовном деле Сафронова к настоящему моменту.">
+<meta property="og:title" content="Допрос следователя, шифрование и интерес силовиков: главные подробности дела Сафронова" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Мосгорсуд в четверг рассмотрит апелляцию на арест обвиняемого в госизмене бывшего журналиста и советника главы &quot;Роскосмоса&quot; Ивана Сафронова. Русская служба Би-би-си рассказывает, что известно об уголовном деле Сафронова к настоящему моменту." />
+<meta property="og:site_name" content="BBC News Русская служба" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="article:author" content="https://www.facebook.com/bbcnews" />
+<meta property="article:section" content="Подробности" />
+<meta property="og:url" content="https://www.bbc.com/russian/features-53425651" />
+<meta property="og:image" content="https://ichef.bbci.co.uk/news/1024/branded_russian/2833/production/_113419201_gettyimages-1225251775.jpg" />
+<meta property="og:image:alt" content="BBC News Русская служба. Иван Сафронов" />
+
+---
+
+https://www.themoscowtimes.com/ru/2020/07/16/chislo-sluchaev-zarazheniya-koronavirusom-v-rossii-previsilo-750-tisyach-a117
+
+<meta property="og:site_name" content="The Moscow Times in Russian"/>
+<title>Число случаев заражения коронавирусом в России превысило 750 тысяч</title>
+<meta name="keywords" content="коронавирус">
+<meta name="news_keywords" content="коронавирус">
+<meta name="description" content="Количество смертельных случаев превысило 11 тысяч ">
+<meta name="thumbnail" content="https://static.themoscowtimes.com/ru/image/320/cb/510081.jpg">
+<meta name="author" content="The Moscow Times in Russian">
+<meta property="og:url" content="https://www.themoscowtimes.com/ru/2020/07/16/chislo-sluchaev-zarazheniya-koronavirusom-v-rossii-previsilo-750-tisyach-a117">
+<meta property="og:title" content="Число случаев заражения коронавирусом в России превысило 750 тысяч">
+<meta property="og:type" content="article">
+<meta property="og:description" content="Количество смертельных случаев превысило 11 тысяч ">
+<meta property="og:image" content="https://static.themoscowtimes.com/ru/image/1360/cb/510081.jpg">
+<meta property="og:image:width" content="1360">
+<meta property="og:image:height" content="765">
+<meta property="article:author" content="The Moscow Times in Russian">
+<meta property="article:content_tier" content="free">
+<meta property="article:modified_time" content="2020-07-16T11:45:57+02:00">
+<meta property="article:published_time" content="2020-07-16T09:30:00+02:00">
+<meta property="article:publisher" content="https://www.facebook.com/MoscowTimes">
+<meta property="article:section" content="news">
+<meta property="article:tag" content="Коронавирус">
+
 ### sunvox 14/1/20
 
 - actually this may be way simpler
