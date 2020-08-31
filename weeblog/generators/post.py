@@ -27,6 +27,15 @@ MetaConfig=yaml.load("""
 - name: draft
   type: boolean
   required: false
+- name: description
+  type: str
+  required: false
+- name: lang
+  type: str
+  required: false
+- name: img
+  type: link
+  required: false
 """, Loader=yaml.FullLoader)
 
 PreProcessors={
@@ -80,14 +89,15 @@ def parse_meta(meta, config=MetaConfig):
                     and not item["required"]):
                 errors.append(":%s not found" % item["name"])
         else:
-            fn=eval("is_%s" % item["type"])
-            value=meta[item["name"]].pop()
-            if not fn(value):
-                errors.append(":%s must be a %s" % (item["name"],
-                                                    item["type"]))
-            else:
-                fn=eval("parse_%s" % item["type"])
-                struct[item["name"]]=fn(value)
+            if meta[item["name"]]!=[]:
+                fn=eval("is_%s" % item["type"])
+                value=meta[item["name"]].pop()
+                if not fn(value):
+                    errors.append(":%s must be a %s" % (item["name"],
+                                                        item["type"]))
+                else:
+                    fn=eval("parse_%s" % item["type"])
+                    struct[item["name"]]=fn(value)
     return struct, errors
 
 def build_post(stage, _post,

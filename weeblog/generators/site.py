@@ -92,12 +92,25 @@ def generate_posts(stage, config, themes, templates, root="posts"):
             return components
         return wrapped
     @append_theme
-    def init_components(stage, config, themes, posts,
+    def init_components(stage, config, themes, posts, post,
                         pinnedfn=PinnedFilterFn,
                         linkfns=LinkFilterFns):
         components={}
         for attr in ["head", "about", "navbar"]:
             components[attr]=copy.deepcopy(config[attr])
+        """
+        - title should be page- specific, not site- specific
+        - base code uses (site) title from site.yaml as (page) title
+        - this code overwrites (site) title with (page) title
+        - note that src attribute contains site src
+        """
+        for attr in ["title",
+                     "description",
+                     "lang",
+                     "img",
+                     "src"]:
+            if attr in post:
+                components["head"][attr]=post[attr]
         pinned=filter_links(posts, pinnedfn)
         if pinned["links"]:
             components["pinned"]=pinned
@@ -123,8 +136,8 @@ def generate_posts(stage, config, themes, templates, root="posts"):
         layout["theme"]=themes["bootstrap"][themename]
         return templates["layout"].render(layout)                             
     posts=init_posts(stage, config, root)
-    components=init_components(stage, config, themes, posts)
-    for i, post in enumerate(posts):        
+    for i, post in enumerate(posts):
+        components=init_components(stage, config, themes, posts, post)
         post["page"]=init_page(config,
                                themes,
                                templates,

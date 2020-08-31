@@ -1,10 +1,11 @@
-### short [instapaper compatability
+### short 
 
-- change title to be page title only
-  - see if you can avoid the hack in the python script
-  - should be applied in templates
-- add meta / open graph fields [notes]
-- add <article> to body
+- update head template to render meta tags
+
+- why does description apparently get consumed twice ?
+
+- new tagged distribution
+- check wol-russki-blog rendering and slow-russian import
 
 ### medium
 
