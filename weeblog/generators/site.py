@@ -115,11 +115,6 @@ def generate_posts(stage, config, themes, templates, root="posts"):
             struct["paginator"]=paginators[i]
         return struct
     def init_page(config, themes, templates, components, post, i):
-        """
-        - adjust title to make instapaper- friendly
-        """
-        components["head"]["title"]="%s - %s" % (config["head"]["title"],
-                                                 post["title"])
         layout={key: templates[key].render(values)
                 for key, values in filter_components(components,
                                                      i).items()}
@@ -129,7 +124,7 @@ def generate_posts(stage, config, themes, templates, root="posts"):
         return templates["layout"].render(layout)                             
     posts=init_posts(stage, config, root)
     components=init_components(stage, config, themes, posts)
-    for i, post in enumerate(posts):
+    for i, post in enumerate(posts):        
         post["page"]=init_page(config,
                                themes,
                                templates,
