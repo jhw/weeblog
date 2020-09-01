@@ -19,7 +19,8 @@ MetaConfig=yaml.load("""
 - name: date
   type: date
 - name: src
-  type: link
+  # type: link
+  type: str
   required: false
 - name: pinned
   type: boolean
@@ -34,7 +35,8 @@ MetaConfig=yaml.load("""
   type: str
   required: false
 - name: img
-  type: link
+  # type: link
+  type: str
   required: false
 """, Loader=yaml.FullLoader)
 
