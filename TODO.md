@@ -1,7 +1,11 @@
-### short 
+### short
+
+- remove CHANGES.md
+- python 3.8
+- virtualenv stuff to go in /env
+- improve setup.py so installs come with dependencies
 
 - why can't I set head.lang ?
-
 - why does description apparently get consumed twice ?
 
 ### medium
