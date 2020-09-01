@@ -6,6 +6,19 @@
 <link rel="stylesheet" href="/assets/css/lib/bootstrap/{{ themes.bootstrap }}.min.css" />
 <link rel="stylesheet" href="/assets/css/lib/highlightjs/{{ themes.highlightjs }}.min.css" />
 <link rel="stylesheet" href="/assets/css/index.css" />
+<meta property="og:title" content="{{ title }}">
+{% if description is defined %}
+<meta property="og:description" content="{{ description }}">
+{% endif %}
+{% if lang is defined %}
+<meta property="og:locale" content="{{ lang }}">
+{% endif %}
+{% if img is defined %}
+<meta property="og:image" content="{{ img }}">
+{% endif %}
+{% if site is defined %}
+<meta property="og:site_name" content="{{ site }}">
+{% endif %}
 <script src="/assets/js/lib/jquery.min.js"></script>
 <script src="/assets/js/lib/highlightjs.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>

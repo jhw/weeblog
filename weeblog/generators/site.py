@@ -104,11 +104,11 @@ def generate_posts(stage, config, themes, templates, root="posts"):
         - this code overwrites (site) title with (page) title
         - note that src attribute contains site src
         """
+        components["head"]["site"]=components["head"].pop("title")
         for attr in ["title",
                      "description",
                      "lang",
-                     "img",
-                     "src"]:
+                     "img"]:
             if attr in post:
                 components["head"][attr]=post[attr]
         pinned=filter_links(posts, pinnedfn)

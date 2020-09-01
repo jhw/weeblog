@@ -1,11 +1,8 @@
 ### short 
 
-- update head template to render meta tags
+- why can't I set head.lang ?
 
 - why does description apparently get consumed twice ?
-
-- new tagged distribution
-- check wol-russki-blog rendering and slow-russian import
 
 ### medium
 
@@ -33,6 +30,7 @@
 
 ### done
 
+- update head template to render meta tags
 - watcher to watch `assets`
 - rename `deploy/clean_app.py` as `deploy/clean_site.py`
 - separate load/play buttons
