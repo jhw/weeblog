@@ -34,7 +34,7 @@ def filter_pip_dependencies(root="requirements.txt"):
 
 setuptools.setup(
     name="weeblog",
-    version="0.0.10",
+    version="0.0.11",
     author="jhw",
     author_email="justin.worrall@gmail.com",
     description="Weeblog blogging framework",
@@ -48,7 +48,7 @@ setuptools.setup(
     ],
     # packages=setuptools.find_packages(),
     packages=filter_packages("weeblog"),
-    install_requires=filter_pip_dependencies()
+    install_requires=filter_pip_dependencies(),
     # https://stackoverflow.com/a/57932258/124179
     setup_requires=['setuptools_scm'],
     include_package_data=True
