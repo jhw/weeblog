@@ -1,23 +1,22 @@
 ### short
 
-- remove CHANGES.md
-- python 3.8
-- virtualenv stuff to go in /env
-- improve setup.py so installs come with dependencies
-
-- why can't I set head.lang ?
-- why does description apparently get consumed twice ?
+- use setup.py from pareto
+  - ensure installation installs non- python dependencies
 
 ### medium
 
-- full set of pre/postprocessor tests
-- tools to use argsparse.py
-- twitter processor to remove widgets.js
-- gist and tweet button alignment
-- pinned links to use text colour from body
-- script to clean bucket
+- why can't I set head.lang ?
+
+- why does description apparently get consumed twice ?
 
 ### thoughts
+
+- full set of pre/postprocessor tests ?
+- tools to use argsparse.py ?
+- twitter processor to remove widgets.js ?
+- gist and tweet button alignment ?
+- pinned links to use text colour from body ?
+- script to clean bucket ?
 
 - preprocessor to convert Google Keep punctuation ?
   - remove spaces before `?|!` ?
@@ -34,6 +33,8 @@
 
 ### done
 
+- python 3.8
+- virtualenv stuff to go in /env
 - update head template to render meta tags
 - watcher to watch `assets`
 - rename `deploy/clean_app.py` as `deploy/clean_site.py`

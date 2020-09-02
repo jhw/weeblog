@@ -1,12 +1,5 @@
-bin/
-include/
-lib/
-!/assets/css/lib
-!/assets/js/lib
-share/
-
+env
 *.pyc
-bin
 tmp
 demo/weeblog
 demo/site
