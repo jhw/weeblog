@@ -1,13 +1,12 @@
 ### short
 
-- use setup.py from pareto
-  - ensure installation installs non- python dependencies
+- add outboard brain link to README
+- python3.8 means server.py can be reduced in scope
+- check if generating unicode
+- set head.lang
+- check why description gets consumed twice in site.py
 
 ### medium
-
-- why can't I set head.lang ?
-
-- why does description apparently get consumed twice ?
 
 ### thoughts
 
@@ -33,6 +32,8 @@
 
 ### done
 
+- use setup.py from pareto
+  - ensure installation installs non- python dependencies
 - python 3.8
 - virtualenv stuff to go in /env
 - update head template to render meta tags
