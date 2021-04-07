@@ -1,5 +1,6 @@
 <div class="card mb-3 post">
-  <span style="padding-bottom:5px;" class="card-header"><h4 style="float:left;">{{ title }}</h4><h6 class="text-muted" style="float:right;margin-top:7px;">{{ formatted_date }}</h6></span>
+  <!-- extra div included so readability can distingish from "true" body text -->
+  <span style="padding-bottom:5px;" class="card-header"><div><h4 style="float:left;">{{ title }}</h4><h6 class="text-muted" style="float:right;margin-top:7px;">{{ formatted_date }}</h6></div></span>
   <div class="card-body">
     {{ body }}
   </div>

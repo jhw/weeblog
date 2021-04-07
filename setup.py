@@ -34,7 +34,7 @@ def filter_pip_dependencies(root="requirements.txt"):
 
 setuptools.setup(
     name="weeblog",
-    version="0.0.11",
+    version="0.0.12",
     author="jhw",
     author_email="justin.worrall@gmail.com",
     description="Weeblog blogging framework",
